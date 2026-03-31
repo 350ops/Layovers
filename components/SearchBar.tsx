@@ -4,7 +4,7 @@ import Icon from './Icon';
 import ThemedText from './ThemedText';
 import React, { useState, useEffect } from 'react';
 import Counter from './forms/Counter';
-import useThemeColors from '@/app/contexts/ThemeColors';
+import useThemeColors from '@/contexts/ThemeColors';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { router } from 'expo-router';
 import { TextInput } from 'react-native-gesture-handler';

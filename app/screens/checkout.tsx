@@ -8,7 +8,7 @@ import Icon, { IconName } from '@/components/Icon';
 import MultiStep, { Step } from '@/components/MultiStep';
 import Section from '@/components/layout/Section';
 import Selectable from '@/components/forms/Selectable';
-import useThemeColors from '../contexts/ThemeColors';
+import useThemeColors from '@/contexts/ThemeColors';
 import Toggle from '@/components/Toggle';
 import AntDesign from '@expo/vector-icons/AntDesign';
 import Fontisto from '@expo/vector-icons/Fontisto';

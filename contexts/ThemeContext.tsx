@@ -17,7 +17,7 @@ export const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
     // Set initial theme
     setColorScheme('light');
     setIsDark(false);
-  }, []);
+  }, [setColorScheme]);
 
   // Sync isDark state with colorScheme changes
   useEffect(() => {

@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { View, Text, Dimensions, Image, TouchableOpacity } from 'react-native';
 import MapView, { Marker } from 'react-native-maps';
-import useThemeColors from '@/app/contexts/ThemeColors';
+import useThemeColors from '@/contexts/ThemeColors';
 import ThemedText from '@/components/ThemedText';
 import ActionSheet, { ActionSheetRef, FlatList } from 'react-native-actions-sheet';
 import CustomCard from '@/components/CustomCard';

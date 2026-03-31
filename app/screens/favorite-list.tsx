@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { View, Text, Image, Dimensions } from 'react-native';
 import MapView from 'react-native-maps';
-import useThemeColors from '@/app/contexts/ThemeColors';
+import useThemeColors from '@/contexts/ThemeColors';
 import Header, { HeaderIcon } from '@/components/Header';
 import ThemedText from '@/components/ThemedText';
 import ActionSheet, { ActionSheetRef, FlatList } from 'react-native-actions-sheet';
