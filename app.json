@@ -6,11 +6,13 @@
     "version": "1.0.0",
     "runtimeVersion": "1.0.0",
     "scheme": "layovers",
-   
     "experiments": {
       "tsconfigPaths": true
     },
-    "platforms": ["ios", "android"],
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "plugins": [
       "expo-router",
       "expo-font"
@@ -27,7 +29,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mmdev13.layovers"
     },
     "android": {
       "adaptiveIcon": {
@@ -38,7 +41,8 @@
       "predictiveBackGestureEnabled": false,
       "config": {
         "enableOnBackInvokedCallback": false
-      }
+      },
+      "package": "com.mmdev13.layovers"
     },
     "extra": {
       "router": {
