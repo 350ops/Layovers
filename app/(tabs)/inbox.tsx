@@ -7,7 +7,7 @@ import ThemedText from '@/components/ThemedText';
 import AnimatedView from '@/components/AnimatedView';
 import { Chip } from '@/components/Chip';
 import { CardScroller } from '@/components/CardScroller';
-import { useCollapsibleTitle } from '@/app/hooks/useCollapsibleTitle';
+import { useCollapsibleTitle } from '@/hooks/useCollapsibleTitle';
 
 interface ChatUser {
   id: string;

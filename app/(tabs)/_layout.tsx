@@ -1,7 +1,7 @@
 import { Tabs } from 'expo-router';
 import React from 'react';
-import { useBusinessMode } from '@/app/contexts/BusinesModeContext';
-import { useThemeColors } from '@/app/contexts/ThemeColors';
+import { useBusinessMode } from '@/contexts/BusinesModeContext';
+import { useThemeColors } from '@/contexts/ThemeColors';
 import * as LucideIcons from 'lucide-react-native';
 
 export default function Layout() {

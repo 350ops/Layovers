@@ -7,7 +7,7 @@ import ThemedText from '@/components/ThemedText';
 import { Chip } from '@/components/Chip';
 import Icon, { IconName } from '@/components/Icon';
 import { Button } from '@/components/Button';
-import useThemeColors from '@/app/contexts/ThemeColors';
+import useThemeColors from '@/contexts/ThemeColors';
 import Input from '@/components/forms/Input';
 import Section from '@/components/layout/Section';
 import Counter from '@/components/forms/Counter';
