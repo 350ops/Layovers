@@ -47,13 +47,12 @@ const DashboardScreen = () => {
 
 
   
-    // Recent notifications
     const recentNotifications: Notification[] = [
         {
             id: 1,
             type: 'booking',
             title: 'New Booking Confirmed',
-            message: 'Maria Rodriguez booked your Beachfront Villa for 7 nights',
+            message: 'Captain Alex booked a sunset cruise for 4 guests',
             time: '5 min ago',
             read: false,
             icon: 'Calendar'
@@ -62,35 +61,35 @@ const DashboardScreen = () => {
             id: 2,
             type: 'message',
             title: 'Guest Message',
-            message: 'John asked about early check-in for tomorrow',
+            message: 'Sarah asked about snorkeling equipment for tomorrow\'s trip',
             time: '1 hour ago',
             read: true,
             icon: 'MessageCircle',
             user: {
                 id: 101,
-                name: 'John Smith',
-                avatar: 'https://randomuser.me/api/portraits/men/32.jpg'
+                name: 'Sarah M.',
+                avatar: 'https://randomuser.me/api/portraits/women/32.jpg'
             }
         },
         {
             id: 3,
             type: 'review',
             title: 'New 5-Star Review',
-            message: 'Sarah left a glowing review for your Downtown Loft',
+            message: 'David left a great review for your dolphin watching tour',
             time: '3 hours ago',
             read: false,
             icon: 'Star',
             user: {
                 id: 102,
-                name: 'Sarah Miller',
-                avatar: 'https://randomuser.me/api/portraits/women/44.jpg'
+                name: 'David L.',
+                avatar: 'https://randomuser.me/api/portraits/men/44.jpg'
             }
         },
         {
             id: 4,
             type: 'payment',
             title: 'Payment Received',
-            message: 'You received $450 for Alex\'s stay at Mountain Cabin',
+            message: 'You received $550 for the Black Pearl 1 boat tour',
             time: '6 hours ago',
             read: true,
             icon: 'DollarSign'
@@ -99,13 +98,13 @@ const DashboardScreen = () => {
             id: 5,
             type: 'inquiry',
             title: 'Booking Inquiry',
-            message: 'Emma is interested in your City Apartment for next weekend',
+            message: 'Emma is interested in a fishing charter this weekend',
             time: '1 day ago',
             read: false,
             icon: 'HelpCircle',
             user: {
                 id: 103,
-                name: 'Emma Wilson',
+                name: 'Emma W.',
                 avatar: 'https://randomuser.me/api/portraits/women/68.jpg'
             }
         },
@@ -113,7 +112,7 @@ const DashboardScreen = () => {
             id: 6,
             type: 'cancellation',
             title: 'Booking Cancelled',
-            message: 'Guest cancelled reservation for Ocean View Suite - full refund issued',
+            message: 'Guest cancelled island hopping trip — full refund issued',
             time: '2 days ago',
             read: true,
             icon: 'X'
@@ -132,7 +131,7 @@ const DashboardScreen = () => {
                 className="px-global"
             >
                 <AnimatedView animation="scaleIn" className='flex-1'>
-                    <ThemedText className='text-4xl font-semibold pr-20 pt-10 pb-16'>Welcome back, John Doe</ThemedText>
+                    <ThemedText className='text-4xl font-semibold pr-20 pt-10 pb-16'>Welcome back, Captain</ThemedText>
 
 
                     <Section
@@ -173,11 +172,11 @@ const ReservationCard = () => {
     return (
         <View style={shadowPresets.large} className="rounded-xl mt-4 border border-neutral-300 dark:border-neutral-700 bg-light-primary dark:bg-dark-primary">
             <View className="p-4">
-                <ThemedText className='mb-16 text-base font-semibold'>Arriving tomorrow</ThemedText>
+                <ThemedText className='mb-16 text-base font-semibold'>Next trip tomorrow</ThemedText>
                 <View className="flex-row items-center justify-between">
                     <View>
-                        <ThemedText className='text-xl font-semibold'>John Doe</ThemedText>
-                        <ThemedText className='text-base font-regular'>Jun 23 - 28</ThemedText>
+                        <ThemedText className='text-xl font-semibold'>Sarah M. — Sunset Cruise</ThemedText>
+                        <ThemedText className='text-base font-regular'>Apr 1 · 4 guests</ThemedText>
                     </View>
                     <Image source={require('@/assets/img/user-4.jpg')} className="w-12 h-12 rounded-full" />
                 </View>

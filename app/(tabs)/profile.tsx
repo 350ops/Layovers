@@ -57,15 +57,15 @@ const HostProfile = () => {
                             <Image className='w-full h-full' source={{ uri: 'https://images.pexels.com/photos/69903/pexels-photo-69903.jpeg?auto=compress&cs=tinysrgb&w=1200' }} />
                         </View>
                     </View>
-                    <ThemedText className='text-2xl font-semibold mt-4'>New to hosting?</ThemedText>
-                    <ThemedText className="text-sm font-light text-center px-4 ">Discover how to start hosting and earn extra income</ThemedText>
+                    <ThemedText className='text-2xl font-semibold mt-4'>List your boat</ThemedText>
+                    <ThemedText className="text-sm font-light text-center px-4 ">Start offering tours and activities in Male, Maldives</ThemedText>
                     <Button title="Get started" className='mt-4' textClassName='text-white' />
                 </View>
                 <View className='px-4'>
                     <ListLink showChevron title="Reservations" icon="Briefcase" href="/screens/reservations" />
                     <ListLink showChevron title="Earnings" icon="Banknote" href="/screens/earnings" />
                     <ListLink showChevron title="Insights" icon="BarChart" href="/screens/insights" />
-                    <ListLink showChevron title="Create new listing" icon="PlusCircle" href="/screens/add-property-start" />
+                    <ListLink showChevron title="Add new boat/activity" icon="PlusCircle" href="/screens/add-property-start" />
                 </View>
             </AnimatedView>
         </>
@@ -87,16 +87,16 @@ const PersonalProfile = () => {
                 </View>
                 <View className='flex-col items-start justify-center w-1/2 pl-12'>
                     <View className='w-full'>
-                        <ThemedText className="text-xl font-bold">16</ThemedText>
-                        <ThemedText className="text-xs">Trips</ThemedText>
+                        <ThemedText className="text-xl font-bold">8</ThemedText>
+                        <ThemedText className="text-xs">Bookings</ThemedText>
                     </View>
                     <View className='w-full py-3 my-3 border-y border-neutral-300 dark:border-dark-primary'>
-                        <ThemedText className="text-xl font-bold">10</ThemedText>
+                        <ThemedText className="text-xl font-bold">5</ThemedText>
                         <ThemedText className="text-xs">Reviews</ThemedText>
                     </View>
                     <View className='w-full'>
-                        <ThemedText className="text-xl font-bold">11</ThemedText>
-                        <ThemedText className="text-xs">Years</ThemedText>
+                        <ThemedText className="text-xl font-bold">2</ThemedText>
+                        <ThemedText className="text-xs">Layovers</ThemedText>
                     </View>
                 </View>
 
@@ -106,9 +106,9 @@ const PersonalProfile = () => {
                 <Image className='w-10 h-10 mr-4' source={require('@/assets/img/house.png')} />
                 <View>
                     <ThemedText className='text-base font-medium flex-1 pr-2'>
-                        Become a host
+                        Become an operator
                     </ThemedText>
-                    <ThemedText className="text-xs opacity-60">It's easy to start hosting and earn extra income</ThemedText>
+                    <ThemedText className="text-xs opacity-60">List your boat and offer activities in Male</ThemedText>
                 </View>
 
             </Pressable>

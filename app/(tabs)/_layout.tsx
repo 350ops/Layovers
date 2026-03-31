@@ -1,110 +1,59 @@
-import { useThemeColors } from 'app/contexts/ThemeColors';
-import { TabButton } from 'components/TabButton';
-import { Tabs, TabList, TabTrigger, TabSlot } from 'expo-router/ui';
-import { KeyboardAvoidingView, Platform, SafeAreaView, View } from 'react-native';
+import { NativeTabs } from 'expo-router/unstable-native-tabs';
 import React from 'react';
 import { useBusinessMode } from '@/app/contexts/BusinesModeContext';
-import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 export default function Layout() {
-  const colors = useThemeColors();
   const { isBusinessMode } = useBusinessMode();
-  const insets = useSafeAreaInsets();
+
   return (
+    <NativeTabs>
+      {!isBusinessMode && (
+        <>
+          <NativeTabs.Trigger name="search">
+            <NativeTabs.Trigger.Icon sf={{ default: 'map', selected: 'map.fill' }} md="map" />
+            <NativeTabs.Trigger.Label>Search</NativeTabs.Trigger.Label>
+          </NativeTabs.Trigger>
+          <NativeTabs.Trigger name="inbox">
+            <NativeTabs.Trigger.Icon
+              sf={{ default: 'bubble.left.and.bubble.right', selected: 'bubble.left.and.bubble.right.fill' }}
+              md="chat"
+            />
+            <NativeTabs.Trigger.Label>Inbox</NativeTabs.Trigger.Label>
+          </NativeTabs.Trigger>
+          <NativeTabs.Trigger name="book">
+            <NativeTabs.Trigger.Icon sf={{ default: 'sailboat', selected: 'sailboat.fill' }} md="sailing" />
+            <NativeTabs.Trigger.Label>Book</NativeTabs.Trigger.Label>
+          </NativeTabs.Trigger>
+          <NativeTabs.Trigger name="profile">
+            <NativeTabs.Trigger.Icon sf={{ default: 'person.circle', selected: 'person.circle.fill' }} md="account_circle" />
+            <NativeTabs.Trigger.Label>Profile</NativeTabs.Trigger.Label>
+          </NativeTabs.Trigger>
+        </>
+      )}
 
-
-    <Tabs
-
-    >
-      <TabSlot />
-      <TabList
-        style={{
-          //height: 80,
-          backgroundColor: colors.bg,
-          borderTopColor: colors.secondary,
-          borderTopWidth: 1,
-          // paddingTop: insets.top,
-          paddingBottom: insets.bottom,
-        }}
-      >
-        {/****Host tabs */}
-        <TabTrigger
-          name="dashboard"
-          href="/(tabs)/dashboard"
-          asChild
-          style={{ display: isBusinessMode ? 'flex' : 'none' }}
-        >
-          <TabButton labelAnimated={false} icon="Home">Home</TabButton>
-        </TabTrigger>
-        <TabTrigger
-          name="calendar"
-          href="/(tabs)/calendar"
-          asChild
-          style={{ display: isBusinessMode ? 'flex' : 'none' }}
-        >
-          <TabButton labelAnimated={false} icon="CalendarFold">Calendar</TabButton>
-        </TabTrigger>
-        <TabTrigger
-          name="analytics"
-          href="/(tabs)/listings"
-          asChild
-          style={{ display: isBusinessMode ? 'flex' : 'none' }}
-        >
-          <TabButton labelAnimated={false} icon="File">Listings</TabButton>
-        </TabTrigger>
-
-
-        {/* Consumer mode tabs */}
-        <TabTrigger
-          name="(home)"
-          href="/(tabs)/(home)"
-          asChild
-          style={{ display: isBusinessMode ? 'none' : 'flex' }}
-        >
-          <TabButton labelAnimated={false} icon="Search">Home</TabButton>
-        </TabTrigger>
-
-        <TabTrigger
-          name="favorites"
-          href="/favorites"
-          asChild
-          style={{ display: isBusinessMode ? 'none' : 'flex' }}
-        >
-          <TabButton labelAnimated={false} icon="Heart">Favorites</TabButton>
-        </TabTrigger>
-
-        <TabTrigger
-          name="trips"
-          href="/trips"
-          asChild
-          style={{ display: isBusinessMode ? 'none' : 'flex' }}
-        >
-          <TabButton labelAnimated={false} icon="Plane">Trips</TabButton>
-        </TabTrigger>
-
-        <TabTrigger
-          name="chat"
-          href="/(tabs)/chat"
-          asChild
-          style={{ display: isBusinessMode ? 'flex' : 'flex' }}
-        >
-          <TabButton labelAnimated={false} hasBadge icon="MessageSquare">Messages</TabButton>
-        </TabTrigger>
-
-
-
-        <TabTrigger
-          name="profile"
-          href="/profile"
-          asChild
-          style={{ display: isBusinessMode ? 'flex' : 'flex' }}
-        >
-          <TabButton labelAnimated={false} icon="CircleUser">Profile</TabButton>
-        </TabTrigger>
-
-
-      </TabList>
-    </Tabs>
-
+      {isBusinessMode && (
+        <>
+          <NativeTabs.Trigger name="dashboard">
+            <NativeTabs.Trigger.Icon sf={{ default: 'chart.bar', selected: 'chart.bar.fill' }} md="dashboard" />
+            <NativeTabs.Trigger.Label>Dashboard</NativeTabs.Trigger.Label>
+          </NativeTabs.Trigger>
+          <NativeTabs.Trigger name="inbox">
+            <NativeTabs.Trigger.Icon
+              sf={{ default: 'bubble.left.and.bubble.right', selected: 'bubble.left.and.bubble.right.fill' }}
+              md="chat"
+            />
+            <NativeTabs.Trigger.Label>Inbox</NativeTabs.Trigger.Label>
+          </NativeTabs.Trigger>
+          <NativeTabs.Trigger name="listings">
+            <NativeTabs.Trigger.Icon sf={{ default: 'list.bullet', selected: 'list.bullet' }} md="list" />
+            <NativeTabs.Trigger.Label>Listings</NativeTabs.Trigger.Label>
+          </NativeTabs.Trigger>
+          <NativeTabs.Trigger name="profile">
+            <NativeTabs.Trigger.Icon sf={{ default: 'person.circle', selected: 'person.circle.fill' }} md="account_circle" />
+            <NativeTabs.Trigger.Label>Profile</NativeTabs.Trigger.Label>
+          </NativeTabs.Trigger>
+        </>
+      )}
+    </NativeTabs>
   );
 }

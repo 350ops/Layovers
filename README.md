@@ -1,6 +1,6 @@
-# Propia - Property Booking Template
+# Layovers - Property Booking Template
 
-Thank you for buying the Propia Booking template!
+Thank you for buying the Layovers Booking template!
 
 ## Features
 

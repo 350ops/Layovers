@@ -53,7 +53,7 @@ const ReviewScreen = () => {
     // Mock product data (replace with actual data)
     const product = {
         id: 1,
-        name: 'Luxury Beachfront Villa',
+        name: 'Sunset Cruise & Dolphin Watching',
         date: `12 - 16 July, 2025`,
         image: require('@/assets/img/room-1.avif')
     };

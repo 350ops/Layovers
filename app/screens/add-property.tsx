@@ -29,50 +29,50 @@ interface PropertyData {
 }
 
 const propertyTypeOptions: Array<{ label: string; icon: IconName; value: string }> = [
-    { label: 'House', icon: 'Home', value: 'house' },
-    { label: 'Apartment', icon: 'Building', value: 'apartment' },
-    { label: 'Barn', icon: 'Warehouse', value: 'barn' },
-    { label: 'Boat', icon: 'Ship', value: 'boat' },
-    { label: 'Cabin', icon: 'TreePine', value: 'cabin' },
-    { label: 'Villa', icon: 'Castle', value: 'villa' },
-    { label: 'Condo', icon: 'Building2', value: 'condo' },
-    { label: 'Tiny House', icon: 'Home', value: 'tiny_house' }
+    { label: 'Center Console', icon: 'Ship', value: 'center_console' },
+    { label: 'Sportfishing', icon: 'Fish', value: 'sportfishing' },
+    { label: 'Motor Yacht', icon: 'Ship', value: 'motor_yacht' },
+    { label: 'Catamaran', icon: 'Sailboat', value: 'catamaran' },
+    { label: 'Sailboat', icon: 'Sailboat', value: 'sailboat' },
+    { label: 'Cruiser', icon: 'Ship', value: 'cruiser' },
+    { label: 'Pontoon', icon: 'Ship', value: 'pontoon' },
+    { label: 'Other', icon: 'Anchor', value: 'other' }
 ];
 
 const guestAccessOptions: Array<{ label: string; description: string; icon: IconName; value: string }> = [
     {
-        label: 'An entire place',
-        description: 'Guests have the whole place to themselves.',
-        icon: 'Home',
-        value: 'entire_place'
+        label: 'Boat Tour',
+        description: 'Guided tours with captain and crew.',
+        icon: 'Ship',
+        value: 'boat_tour'
     },
     {
-        label: 'A room',
-        description: 'Guests have their own room.',
-        icon: 'Bed',
-        value: 'private_room'
+        label: 'Boat Rental',
+        description: 'Guests rent the vessel for the day.',
+        icon: 'Anchor',
+        value: 'boat_rental'
     },
     {
-        label: 'A shared room',
-        description: 'Guests sleep in a common area.',
-        icon: 'Users',
-        value: 'shared_room'
+        label: 'Water Activity',
+        description: 'Snorkeling, diving, fishing, etc.',
+        icon: 'Waves',
+        value: 'water_activity'
     }
 ];
 
 const amenityOptions: Array<{ label: string; icon: IconName }> = [
-    { label: 'Wifi', icon: 'Wifi' },
-    { label: 'TV', icon: 'Tv' },
-    { label: 'Kitchen', icon: 'ChefHat' },
-    { label: 'Washing machine', icon: 'Shirt' },
-    { label: 'Free parking', icon: 'Car' },
-    { label: 'Paid parking', icon: 'ParkingCircle' },
-    { label: 'Air conditioning', icon: 'Wind' },
-    { label: 'Dedicated workspace', icon: 'Laptop' },
-    { label: 'Pool', icon: 'Waves' },
-    { label: 'Hot tub', icon: 'Bath' },
-    { label: 'Patio', icon: 'TreePine' },
-    { label: 'BBQ grill', icon: 'Flame' }
+    { label: 'Snorkeling gear', icon: 'Waves' },
+    { label: 'Fishing rods', icon: 'Fish' },
+    { label: 'Life jackets', icon: 'ShieldCheck' },
+    { label: 'Towels', icon: 'Shirt' },
+    { label: 'Cooler/drinks', icon: 'Wine' },
+    { label: 'Sound system', icon: 'Music' },
+    { label: 'Shade/bimini', icon: 'Umbrella' },
+    { label: 'Paddleboard', icon: 'Footprints' },
+    { label: 'GPS/Fish finder', icon: 'Compass' },
+    { label: 'Bathroom', icon: 'Bath' },
+    { label: 'BBQ grill', icon: 'Flame' },
+    { label: 'Diving equipment', icon: 'Shell' }
 ];
 
 const characteristicOptions: Array<{ label: string; icon: IconName }> = [
@@ -92,8 +92,8 @@ interface StepProps {
 const PropertyTypeStep: React.FC<StepProps> = ({ data, updateData }) => (
     <ScrollView className="p-4 px-8">
         <View className='mb-10'>
-            <ThemedText className='text-3xl font-semibold mt-auto'>Which of these best describes your place?</ThemedText>
-            <ThemedText className='text-base text-light-subtext dark:text-dark-subtext'>Choose the option that best fits your property</ThemedText>
+            <ThemedText className='text-3xl font-semibold mt-auto'>What type of vessel do you have?</ThemedText>
+            <ThemedText className='text-base text-light-subtext dark:text-dark-subtext'>Choose the option that best fits your boat</ThemedText>
         </View>
         {propertyTypeOptions.map((option) => (
             <Selectable
@@ -111,8 +111,8 @@ const PropertyTypeStep: React.FC<StepProps> = ({ data, updateData }) => (
 const GuestAccessStep: React.FC<StepProps> = ({ data, updateData }) => (
     <ScrollView className="p-4 px-8">
         <View className='mb-10'>
-            <ThemedText className='text-3xl font-semibold mt-auto'>What type of place will guests have?</ThemedText>
-            <ThemedText className='text-base text-light-subtext dark:text-dark-subtext'>Choose what guests will have access to</ThemedText>
+            <ThemedText className='text-3xl font-semibold mt-auto'>What type of experience do you offer?</ThemedText>
+            <ThemedText className='text-base text-light-subtext dark:text-dark-subtext'>Choose how guests will use your vessel</ThemedText>
         </View>
 
         {guestAccessOptions.map((option) => (
@@ -134,7 +134,7 @@ const PropertyBasicsStep: React.FC<StepProps> = ({ data, updateData }) => {
     return (
         <ScrollView className="p-4 px-8">
             <View className='mb-10'>
-                <ThemedText className='text-3xl font-semibold mt-auto'>Share some basics about your place</ThemedText>
+                <ThemedText className='text-3xl font-semibold mt-auto'>Share some basics about your vessel</ThemedText>
                 <ThemedText className='text-base text-light-subtext dark:text-dark-subtext'>You can add more details later</ThemedText>
             </View>
 
@@ -150,21 +150,21 @@ const PropertyBasicsStep: React.FC<StepProps> = ({ data, updateData }) => {
                 </View>
 
                 <View className="flex-row items-center justify-between py-4 border-t border-light-secondary dark:border-dark-secondary">
-                    <ThemedText className="text-lg">Bedrooms</ThemedText>
+                    <ThemedText className="text-lg">Length (ft)</ThemedText>
                     <Counter
                         value={data.bedrooms}
                         onChange={(value) => updateData({ bedrooms: value || 0 })}
-                        min={0}
-                        max={10}
+                        min={10}
+                        max={200}
                     />
                 </View>
 
                 <View className="flex-row items-center justify-between py-4 border-t border-light-secondary dark:border-dark-secondary">
-                    <ThemedText className="text-lg">Beds</ThemedText>
+                    <ThemedText className="text-lg">Cabins</ThemedText>
                     <Counter
                         value={data.beds}
-                        onChange={(value) => updateData({ beds: value || 1 })}
-                        min={1}
+                        onChange={(value) => updateData({ beds: value || 0 })}
+                        min={0}
                         max={20}
                     />
                 </View>
@@ -173,8 +173,8 @@ const PropertyBasicsStep: React.FC<StepProps> = ({ data, updateData }) => {
                     <ThemedText className="text-lg">Bathrooms</ThemedText>
                     <Counter
                         value={data.bathrooms}
-                        onChange={(value) => updateData({ bathrooms: value || 1 })}
-                        min={1}
+                        onChange={(value) => updateData({ bathrooms: value || 0 })}
+                        min={0}
                         max={10}
                     />
                 </View>
@@ -187,8 +187,8 @@ const PropertyBasicsStep: React.FC<StepProps> = ({ data, updateData }) => {
 const AmenitiesStep: React.FC<StepProps> = ({ data, updateData }) => (
     <ScrollView className="p-4 px-8">
         <View className='mb-10'>
-            <ThemedText className='text-3xl font-semibold mt-auto'>Tell guests what your place has to offer</ThemedText>
-            <ThemedText className='text-base text-light-subtext dark:text-dark-subtext'>You can add more amenities after you publish your listing</ThemedText>
+            <ThemedText className='text-3xl font-semibold mt-auto'>What equipment and amenities are on board?</ThemedText>
+            <ThemedText className='text-base text-light-subtext dark:text-dark-subtext'>You can add more after publishing your listing</ThemedText>
         </View>
 
         <View className="flex-row flex-wrap gap-3 mt-4">
@@ -235,8 +235,8 @@ const PhotosStep: React.FC<StepProps> = ({ data, updateData }) => {
     return (
         <ScrollView className="p-4 px-8">
             <View className='mb-10'>
-                <ThemedText className='text-3xl font-semibold mt-auto'>Add some photos of your place</ThemedText>
-                <ThemedText className='text-base text-light-subtext dark:text-dark-subtext'>You'll need at least one photo to get started. You can add more or make changes later.</ThemedText>
+            <ThemedText className='text-3xl font-semibold mt-auto'>Add photos of your vessel</ThemedText>
+            <ThemedText className='text-base text-light-subtext dark:text-dark-subtext'>You'll need at least one photo to get started. You can add more or make changes later.</ThemedText>
             </View>
 
             <Grid columns={2} spacing={10}>
@@ -272,7 +272,7 @@ const PhotosStep: React.FC<StepProps> = ({ data, updateData }) => {
 const TitleDescriptionStep: React.FC<StepProps> = ({ data, updateData }) => (
     <ScrollView className="p-4 px-8">
         <View className='mb-10'>
-            <ThemedText className='text-3xl font-semibold mt-auto'>Now, let's give your place a title</ThemedText>
+            <ThemedText className='text-3xl font-semibold mt-auto'>Now, let's give your listing a title</ThemedText>
             <ThemedText className='text-base text-light-subtext dark:text-dark-subtext'>Short titles work best. Have fun with it—you can always change it later.</ThemedText>
         </View>
 
@@ -280,7 +280,7 @@ const TitleDescriptionStep: React.FC<StepProps> = ({ data, updateData }) => (
             <Input
                 variant='classic'
                 containerClassName="mt-1 mb-0"
-                placeholder="Enter a catchy title for your place"
+                placeholder="Enter a catchy title for your listing"
                 value={data.title}
                 onChangeText={(text) => updateData({ title: text })}
                 maxLength={50}
@@ -294,7 +294,7 @@ const TitleDescriptionStep: React.FC<StepProps> = ({ data, updateData }) => (
             <Input
                 variant='classic'
                 containerClassName="mt-1 mb-0"
-                placeholder="Describe your place to guests"
+                placeholder="Describe your vessel and activities to guests"
                 value={data.description}
                 onChangeText={(text) => updateData({ description: text })}
                 isMultiline={true}
@@ -311,8 +311,8 @@ const TitleDescriptionStep: React.FC<StepProps> = ({ data, updateData }) => (
 const CharacteristicsStep: React.FC<StepProps> = ({ data, updateData }) => (
     <ScrollView className="p-4 px-8">
         <View className='mb-10'>
-            <ThemedText className='text-3xl font-semibold mt-auto'>Describe your place</ThemedText>
-            <ThemedText className='text-base text-light-subtext dark:text-dark-subtext'>Choose up to 2 highlights. We'll use these to get your listing noticed by the right guests.</ThemedText>
+            <ThemedText className='text-3xl font-semibold mt-auto'>Describe your experience</ThemedText>
+            <ThemedText className='text-base text-light-subtext dark:text-dark-subtext'>Choose up to 2 highlights to attract the right guests.</ThemedText>
         </View>
 
         <View className="flex-row flex-wrap gap-3 mt-4">
@@ -354,7 +354,7 @@ const SuccessStep: React.FC<StepProps> = ({ data }) => {
             />
             <ThemedText className="text-3xl font-bold mt-8 text-center">Congratulations!</ThemedText>
             <ThemedText className="text-sm text-light-subtext dark:text-dark-subtext text-center mb-8 mt-1">
-                Your property listing has been created successfully. Let's take a look at how it appears to guests.
+                Your listing has been created successfully. Let's take a look at how it appears to guests.
             </ThemedText>
 
             {/*<View className="w-full bg-light-secondary dark:bg-dark-secondary rounded-lg p-4 mb-8">
@@ -404,7 +404,7 @@ export default function AddPropertyScreen() {
             onComplete={() => {
                 router.push('/screens/product-detail');
             }}
-            onClose={() => router.push('/(drawer)/(tabs)/')}
+            onClose={() => router.push('/(tabs)/listings')}
             showStepIndicator={false}
         >
             <Step title="Property Type">

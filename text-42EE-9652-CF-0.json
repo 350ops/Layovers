@@ -1,0 +1,3183 @@
+{
+  "data": {
+    "results": [
+      {
+        "id": 46900,
+        "license_status": "Pending",
+        "license_tag": null,
+        "lat": 4.2282607848176,
+        "lng": 73.543967250734,
+        "geopoint": {
+          "latitude": 4.2282607848176,
+          "longitude": 73.543967250734
+        },
+        "title": "SaltytaleMv",
+        "activities": [
+          "boat_yacht_tours",
+          "sandbar_tours"
+        ],
+        "is_available": true,
+        "is_instant_book_active": true,
+        "is_free_cancellation_active": true,
+        "cover_photo": {
+          "charter_idcharter": "46900",
+          "description": null,
+          "cardinal": "0",
+          "path": "02eccf7258581e16027d7cebd8302f2d.jpg",
+          "width": "3072",
+          "height": "4096",
+          "aspect_ratio": "0.750",
+          "status": "optimized",
+          "created_date": "2025-12-16 08:29:46",
+          "id": "1132751",
+          "date_created": "1970-01-01 00:00:00",
+          "date_updated": null,
+          "urls": {
+            "small": "https://static.boatbooker.com/public/images/charters/46900/280x210-blur/02eccf7258581e16027d7cebd8302f2d.jpg",
+            "public": "https://static.boatbooker.com/public/images/charters/46900/public/02eccf7258581e16027d7cebd8302f2d.jpg",
+            "thumbnail": "https://static.boatbooker.com/public/images/charters/46900/thumbnail-blur/02eccf7258581e16027d7cebd8302f2d.jpg"
+          }
+        },
+        "has_video": false,
+        "charter_video": null,
+        "distance_from_me": null,
+        "distance_from_destination": null,
+        "location": {
+          "title": "Malé"
+        },
+        "charter_destination_details": {
+          "address": "Hithigas Magu 20509",
+          "country_title": "Maldives",
+          "country_abbrev": "mv",
+          "location_title": "Malé",
+          "location_id": 61,
+          "destination_id": 34,
+          "postal_code": "",
+          "state_abbrev": null,
+          "state_title": null,
+          "display_format": {
+            "exact": "Hithigas Magu 20509, Malé, Maldives",
+            "location_state_country": "Malé, Maldives",
+            "location_state_title_country": "Malé, Maldives"
+          }
+        },
+        "rating": {
+          "count": 0,
+          "score": 0
+        },
+        "third_party_review_scores": {
+          "fishingbooker": {
+            "review_count": 2,
+            "review_score": 5,
+            "source": "FishingBooker"
+          }
+        },
+        "review_statistics": {
+          "review_count": 0,
+          "rating": 0,
+          "rating_overall": 0,
+          "rating_equipment": 0,
+          "rating_captain": 0,
+          "stars": {
+            "_1": 0,
+            "_2": 0,
+            "_3": 0,
+            "_4": 0,
+            "_5": 0
+          }
+        },
+        "min_price": {
+          "value": 350,
+          "currency": {
+            "currency": "USD",
+            "title": "US Dollar"
+          },
+          "display_value": "US $350"
+        },
+        "loyalty_price": null,
+        "urls": {
+          "view": "https://boatbooker.com/charters/view/46900",
+          "search_results": null
+        },
+        "verification_badge": null,
+        "has_anglers_choice_award": false,
+        "flag_new_badge": false,
+        "new_badge": null,
+        "capacity": "4",
+        "length": "24",
+        "shortdesc": "Set sail with SaltytaleMv, a sleek 2025 Bluewater PVT 24ft Center Console, departing from Mal&eacute;. Perfect for up to four guests, this nimble boat is powered by twin 60 HP Yamaha outboards, reaching speeds of up to 30 knots for a thrilling ride across",
+        "display_description": "Set sail with SaltytaleMv, a sleek 2025 Bluewater PVT 24ft Center Console, departing from Mal&eacute;. Perfect for up to four guests, this nimble boat is powered by twin 60 HP Yamaha outboards, reaching speeds of up to 30 knots for a thrilling ride across",
+        "most_useful_review": null,
+        "free_cancellation_days_in_advance": "3",
+        "page_views": 8,
+        "has_recent_reports": false,
+        "scarcity": null,
+        "driving_distance": null,
+        "listing_type": "boat_rental",
+        "has_boat": true,
+        "location_id": 61,
+        "tripadvisor_location_id": null,
+        "boat_category": "Center console boats",
+        "boat_type": "Center console",
+        "cheapest_trip_for_activity": null
+      },
+      {
+        "id": 41063,
+        "license_status": "Pending",
+        "license_tag": null,
+        "lat": 4.2138367123728,
+        "lng": 73.543482436246,
+        "geopoint": {
+          "latitude": 4.2138367123728,
+          "longitude": 73.543482436246
+        },
+        "title": "Fish On",
+        "activities": [
+          "boat_yacht_tours",
+          "island_hopping",
+          "snorkeling_diving_tours",
+          "whale_dolphin_watching",
+          "sandbar_tours"
+        ],
+        "is_available": true,
+        "is_instant_book_active": true,
+        "is_free_cancellation_active": true,
+        "cover_photo": {
+          "charter_idcharter": "41063",
+          "description": null,
+          "cardinal": "0",
+          "path": "dd3707ca43c3df0afeb4a2f85c1909a9.jpg",
+          "width": "4000",
+          "height": "2250",
+          "aspect_ratio": "1.778",
+          "status": "optimized",
+          "created_date": "2025-04-04 11:03:46",
+          "id": "1083105",
+          "date_created": "1970-01-01 00:00:00",
+          "date_updated": null,
+          "urls": {
+            "small": "https://static.boatbooker.com/public/images/charters/41063/280x210-blur/dd3707ca43c3df0afeb4a2f85c1909a9.jpg",
+            "public": "https://static.boatbooker.com/public/images/charters/41063/public/dd3707ca43c3df0afeb4a2f85c1909a9.jpg",
+            "thumbnail": "https://static.boatbooker.com/public/images/charters/41063/thumbnail-blur/dd3707ca43c3df0afeb4a2f85c1909a9.jpg"
+          }
+        },
+        "has_video": false,
+        "charter_video": null,
+        "distance_from_me": null,
+        "distance_from_destination": null,
+        "location": {
+          "title": "Malé"
+        },
+        "charter_destination_details": {
+          "address": "Nirolhu Magu 10457",
+          "country_title": "Maldives",
+          "country_abbrev": "mv",
+          "location_title": "Malé",
+          "location_id": 61,
+          "destination_id": 34,
+          "postal_code": "23000",
+          "state_abbrev": null,
+          "state_title": null,
+          "display_format": {
+            "exact": "Nirolhu Magu 10457, Malé, 23000, Maldives",
+            "location_state_country": "Malé, Maldives",
+            "location_state_title_country": "Malé, Maldives"
+          }
+        },
+        "rating": {
+          "count": 0,
+          "score": 0
+        },
+        "third_party_review_scores": [],
+        "review_statistics": {
+          "review_count": 0,
+          "rating": 0,
+          "rating_overall": 0,
+          "rating_equipment": 0,
+          "rating_captain": 0,
+          "stars": {
+            "_1": 0,
+            "_2": 0,
+            "_3": 0,
+            "_4": 0,
+            "_5": 0
+          }
+        },
+        "min_price": {
+          "value": 1000,
+          "currency": {
+            "currency": "USD",
+            "title": "US Dollar"
+          },
+          "display_value": "US $1,000"
+        },
+        "loyalty_price": null,
+        "urls": {
+          "view": "https://boatbooker.com/charters/view/41063",
+          "search_results": null
+        },
+        "verification_badge": null,
+        "has_anglers_choice_award": false,
+        "flag_new_badge": false,
+        "new_badge": null,
+        "capacity": "8",
+        "length": "36",
+        "shortdesc": "Hop aboard Fish On, a sleek 2025 Offshore 36 Sportfishing vessel based in Mal&eacute;&mdash;perfect for up to 8 guests seeking unforgettable ocean adventures. Powered by twin 325 HP Suzuki diesel outboards, this sporty and stable ride reaches cruising spe",
+        "display_description": "Hop aboard Fish On, a sleek 2025 Offshore 36 Sportfishing vessel based in Mal&eacute;&mdash;perfect for up to 8 guests seeking unforgettable ocean adventures. Powered by twin 325 HP Suzuki diesel outboards, this sporty and stable ride reaches cruising spe",
+        "most_useful_review": null,
+        "free_cancellation_days_in_advance": "1",
+        "page_views": 1,
+        "has_recent_reports": false,
+        "scarcity": null,
+        "driving_distance": null,
+        "listing_type": "boat_tour",
+        "has_boat": true,
+        "location_id": 61,
+        "tripadvisor_location_id": null,
+        "boat_category": "Sportfishing boats",
+        "boat_type": "Sportfishing",
+        "cheapest_trip_for_activity": null
+      },
+      {
+        "id": 39503,
+        "license_status": "Pending",
+        "license_tag": null,
+        "lat": 4.187407209372,
+        "lng": 73.526031111639,
+        "geopoint": {
+          "latitude": 4.187407209372,
+          "longitude": 73.526031111639
+        },
+        "title": "Maldives Boat Club",
+        "activities": [
+          "boat_yacht_tours",
+          "snorkeling_diving_tours",
+          "shark_diving",
+          "fishing_charter",
+          "sandbar_tours",
+          "stingray_tours"
+        ],
+        "is_available": true,
+        "is_instant_book_active": true,
+        "is_free_cancellation_active": false,
+        "cover_photo": {
+          "charter_idcharter": "39503",
+          "description": null,
+          "cardinal": "0",
+          "path": "671685ebfd9357ddf724e06898fc149b.jpg",
+          "width": "3765",
+          "height": "1748",
+          "aspect_ratio": "2.154",
+          "status": "optimized",
+          "created_date": "2025-10-03 05:29:25",
+          "id": "1114652",
+          "date_created": "1970-01-01 00:00:00",
+          "date_updated": null,
+          "urls": {
+            "small": "https://static.boatbooker.com/public/images/charters/39503/280x210-blur/671685ebfd9357ddf724e06898fc149b.jpg",
+            "public": "https://static.boatbooker.com/public/images/charters/39503/public/671685ebfd9357ddf724e06898fc149b.jpg",
+            "thumbnail": "https://static.boatbooker.com/public/images/charters/39503/thumbnail-blur/671685ebfd9357ddf724e06898fc149b.jpg"
+          }
+        },
+        "has_video": false,
+        "charter_video": null,
+        "distance_from_me": null,
+        "distance_from_destination": null,
+        "location": {
+          "title": "Malé"
+        },
+        "charter_destination_details": {
+          "address": "Airport Main Road",
+          "country_title": "Maldives",
+          "country_abbrev": "mv",
+          "location_title": "Malé",
+          "location_id": 61,
+          "destination_id": 34,
+          "postal_code": "22000",
+          "state_abbrev": null,
+          "state_title": null,
+          "display_format": {
+            "exact": "Airport Main Road, Malé, 22000, Maldives",
+            "location_state_country": "Malé, Maldives",
+            "location_state_title_country": "Malé, Maldives"
+          }
+        },
+        "rating": {
+          "count": 0,
+          "score": 0
+        },
+        "third_party_review_scores": [],
+        "review_statistics": {
+          "review_count": 0,
+          "rating": 0,
+          "rating_overall": 0,
+          "rating_equipment": 0,
+          "rating_captain": 0,
+          "stars": {
+            "_1": 0,
+            "_2": 0,
+            "_3": 0,
+            "_4": 0,
+            "_5": 0
+          }
+        },
+        "min_price": {
+          "value": 7391,
+          "currency": {
+            "currency": "USD",
+            "title": "US Dollar"
+          },
+          "display_value": "US $7,391"
+        },
+        "loyalty_price": null,
+        "urls": {
+          "view": "https://boatbooker.com/charters/view/39503",
+          "search_results": null
+        },
+        "verification_badge": null,
+        "has_anglers_choice_award": false,
+        "flag_new_badge": false,
+        "new_badge": null,
+        "capacity": "21",
+        "length": "125",
+        "shortdesc": "The Maldives Boat Club is a stunning 2013 motor yacht, expertly designed to offer the perfect blend of comfort and adventure. Based out of Mal&eacute;, this spacious vessel accommodates up to 21 guests, making it ideal for family getaways, group celebrati",
+        "display_description": "The Maldives Boat Club is a stunning 2013 motor yacht, expertly designed to offer the perfect blend of comfort and adventure. Based out of Mal&eacute;, this spacious vessel accommodates up to 21 guests, making it ideal for family getaways, group celebrati",
+        "most_useful_review": null,
+        "free_cancellation_days_in_advance": "0",
+        "page_views": 5,
+        "has_recent_reports": false,
+        "scarcity": null,
+        "driving_distance": null,
+        "listing_type": "boat_tour",
+        "has_boat": true,
+        "location_id": 61,
+        "tripadvisor_location_id": null,
+        "boat_category": "Yachts",
+        "boat_type": "Motor yacht",
+        "cheapest_trip_for_activity": null
+      },
+      {
+        "id": 40687,
+        "license_status": "Pending",
+        "license_tag": null,
+        "lat": 4.2176943905146,
+        "lng": 73.537336445176,
+        "geopoint": {
+          "latitude": 4.2176943905146,
+          "longitude": 73.537336445176
+        },
+        "title": "Lavenier –Your Gateway to Maldivian Adventure",
+        "activities": [
+          "boat_yacht_tours",
+          "island_hopping",
+          "snorkeling_diving_tours",
+          "sandbar_tours"
+        ],
+        "is_available": true,
+        "is_instant_book_active": true,
+        "is_free_cancellation_active": true,
+        "cover_photo": {
+          "charter_idcharter": "40687",
+          "description": null,
+          "cardinal": "0",
+          "path": "30f74e81cf16f1b189a34d17dcb0556f.jpg",
+          "width": "1200",
+          "height": "1600",
+          "aspect_ratio": "0.750",
+          "status": "optimized",
+          "created_date": "2025-03-07 11:40:17",
+          "id": "1078582",
+          "date_created": "1970-01-01 00:00:00",
+          "date_updated": null,
+          "urls": {
+            "small": "https://static.boatbooker.com/public/images/charters/40687/280x210-blur/30f74e81cf16f1b189a34d17dcb0556f.jpg",
+            "public": "https://static.boatbooker.com/public/images/charters/40687/public/30f74e81cf16f1b189a34d17dcb0556f.jpg",
+            "thumbnail": "https://static.boatbooker.com/public/images/charters/40687/thumbnail-blur/30f74e81cf16f1b189a34d17dcb0556f.jpg"
+          }
+        },
+        "has_video": false,
+        "charter_video": null,
+        "distance_from_me": null,
+        "distance_from_destination": null,
+        "location": {
+          "title": "Hulhumale"
+        },
+        "charter_destination_details": {
+          "address": "Male-Hulhumale Ferry",
+          "country_title": "Maldives",
+          "country_abbrev": "mv",
+          "location_title": "Hulhumale",
+          "location_id": 1065,
+          "destination_id": 1054,
+          "postal_code": "",
+          "state_abbrev": null,
+          "state_title": null,
+          "display_format": {
+            "exact": "Male-Hulhumale Ferry, Hulhumale, Maldives",
+            "location_state_country": "Hulhumale, Maldives",
+            "location_state_title_country": "Hulhumale, Maldives"
+          }
+        },
+        "rating": {
+          "count": 0,
+          "score": 0
+        },
+        "third_party_review_scores": [],
+        "review_statistics": {
+          "review_count": 0,
+          "rating": 0,
+          "rating_overall": 0,
+          "rating_equipment": 0,
+          "rating_captain": 0,
+          "stars": {
+            "_1": 0,
+            "_2": 0,
+            "_3": 0,
+            "_4": 0,
+            "_5": 0
+          }
+        },
+        "min_price": {
+          "value": 650,
+          "currency": {
+            "currency": "USD",
+            "title": "US Dollar"
+          },
+          "display_value": "US $650"
+        },
+        "loyalty_price": null,
+        "urls": {
+          "view": "https://boatbooker.com/charters/view/40687",
+          "search_results": null
+        },
+        "verification_badge": null,
+        "has_anglers_choice_award": false,
+        "flag_new_badge": false,
+        "new_badge": null,
+        "capacity": "5",
+        "length": "27",
+        "shortdesc": "Lavenier &ndash; Your Gateway to Maldivian Adventure is a 2022 Lailoo Lailoo 27 Center Console, based in Hulhumale, perfect for up to five guests seeking an unforgettable day on the water. Powered by twin 115 HP Suzuki outboard engines, it reaches a thril",
+        "display_description": "Lavenier &ndash; Your Gateway to Maldivian Adventure is a 2022 Lailoo Lailoo 27 Center Console, based in Hulhumale, perfect for up to five guests seeking an unforgettable day on the water. Powered by twin 115 HP Suzuki outboard engines, it reaches a thril",
+        "most_useful_review": null,
+        "free_cancellation_days_in_advance": "1",
+        "page_views": 1,
+        "has_recent_reports": false,
+        "scarcity": null,
+        "driving_distance": null,
+        "listing_type": "boat_tour",
+        "has_boat": true,
+        "location_id": 1065,
+        "tripadvisor_location_id": null,
+        "boat_category": "Center console boats",
+        "boat_type": "Center console",
+        "cheapest_trip_for_activity": null
+      },
+      {
+        "id": 45765,
+        "license_status": "Pending",
+        "license_tag": null,
+        "lat": 4.1787850685311,
+        "lng": 73.514730735482,
+        "geopoint": {
+          "latitude": 4.1787850685311,
+          "longitude": 73.514730735482
+        },
+        "title": "Master Bite",
+        "activities": [
+          "boat_yacht_tours",
+          "sunset_dinner_cruises"
+        ],
+        "is_available": true,
+        "is_instant_book_active": true,
+        "is_free_cancellation_active": true,
+        "cover_photo": {
+          "charter_idcharter": "45765",
+          "description": null,
+          "cardinal": "0",
+          "path": "d7dfa253e2c882d5141035adc9abd204.jpg",
+          "width": "3160",
+          "height": "2194",
+          "aspect_ratio": "1.440",
+          "status": "optimized",
+          "created_date": "2025-11-20 07:20:42",
+          "id": "1126258",
+          "date_created": "1970-01-01 00:00:00",
+          "date_updated": null,
+          "urls": {
+            "small": "https://static.boatbooker.com/public/images/charters/45765/280x210-blur/d7dfa253e2c882d5141035adc9abd204.jpg",
+            "public": "https://static.boatbooker.com/public/images/charters/45765/public/d7dfa253e2c882d5141035adc9abd204.jpg",
+            "thumbnail": "https://static.boatbooker.com/public/images/charters/45765/thumbnail-blur/d7dfa253e2c882d5141035adc9abd204.jpg"
+          }
+        },
+        "has_video": false,
+        "charter_video": null,
+        "distance_from_me": null,
+        "distance_from_destination": null,
+        "location": {
+          "title": "Malé"
+        },
+        "charter_destination_details": {
+          "address": "Dheefram Goalhi",
+          "country_title": "Maldives",
+          "country_abbrev": "mv",
+          "location_title": "Malé",
+          "location_id": 61,
+          "destination_id": 34,
+          "postal_code": "20220",
+          "state_abbrev": null,
+          "state_title": null,
+          "display_format": {
+            "exact": "Dheefram Goalhi, Malé, 20220, Maldives",
+            "location_state_country": "Malé, Maldives",
+            "location_state_title_country": "Malé, Maldives"
+          }
+        },
+        "rating": {
+          "count": 0,
+          "score": 0
+        },
+        "third_party_review_scores": [],
+        "review_statistics": {
+          "review_count": 0,
+          "rating": 0,
+          "rating_overall": 0,
+          "rating_equipment": 0,
+          "rating_captain": 0,
+          "stars": {
+            "_1": 0,
+            "_2": 0,
+            "_3": 0,
+            "_4": 0,
+            "_5": 0
+          }
+        },
+        "min_price": {
+          "value": 200,
+          "currency": {
+            "currency": "USD",
+            "title": "US Dollar"
+          },
+          "display_value": "US $200"
+        },
+        "loyalty_price": null,
+        "urls": {
+          "view": "https://boatbooker.com/charters/view/45765",
+          "search_results": null
+        },
+        "verification_badge": null,
+        "has_anglers_choice_award": false,
+        "flag_new_badge": false,
+        "new_badge": null,
+        "capacity": "6",
+        "length": "30",
+        "shortdesc": "Master Bite is a sleek 2019 Atolls Marine AM.29 Center Console based in Mal&eacute;, offering an unforgettable way to explore the Maldives. With room for up to six guests and powered by twin 115 HP Suzuki outboards reaching speeds of up to 36 knots, this ",
+        "display_description": "Master Bite is a sleek 2019 Atolls Marine AM.29 Center Console based in Mal&eacute;, offering an unforgettable way to explore the Maldives. With room for up to six guests and powered by twin 115 HP Suzuki outboards reaching speeds of up to 36 knots, this ",
+        "most_useful_review": null,
+        "free_cancellation_days_in_advance": "3",
+        "page_views": 4,
+        "has_recent_reports": false,
+        "scarcity": null,
+        "driving_distance": null,
+        "listing_type": "boat_tour",
+        "has_boat": true,
+        "location_id": 61,
+        "tripadvisor_location_id": null,
+        "boat_category": "Center console boats",
+        "boat_type": "Center console",
+        "cheapest_trip_for_activity": null
+      },
+      {
+        "id": 45699,
+        "license_status": "Pending",
+        "license_tag": null,
+        "lat": 4.1787194,
+        "lng": 73.513841781657,
+        "geopoint": {
+          "latitude": 4.1787194,
+          "longitude": 73.513841781657
+        },
+        "title": "Arriva",
+        "activities": [
+          "boat_yacht_tours",
+          "island_hopping",
+          "sandbar_tours"
+        ],
+        "is_available": true,
+        "is_instant_book_active": true,
+        "is_free_cancellation_active": true,
+        "cover_photo": {
+          "charter_idcharter": "45699",
+          "description": null,
+          "cardinal": "0",
+          "path": "b5a21e29ed59e6dddd09da7f65944178.jpg",
+          "width": "4926",
+          "height": "3282",
+          "aspect_ratio": "1.501",
+          "status": "optimized",
+          "created_date": "2025-11-19 02:59:20",
+          "id": "1126002",
+          "date_created": "1970-01-01 00:00:00",
+          "date_updated": null,
+          "urls": {
+            "small": "https://static.boatbooker.com/public/images/charters/45699/280x210-blur/b5a21e29ed59e6dddd09da7f65944178.jpg",
+            "public": "https://static.boatbooker.com/public/images/charters/45699/public/b5a21e29ed59e6dddd09da7f65944178.jpg",
+            "thumbnail": "https://static.boatbooker.com/public/images/charters/45699/thumbnail-blur/b5a21e29ed59e6dddd09da7f65944178.jpg"
+          }
+        },
+        "has_video": true,
+        "charter_video": {
+          "charter_id": 45699,
+          "video_id": 58942,
+          "description": "Luxury Experience for your marine transfer",
+          "cardinal": 0,
+          "id": 30942,
+          "date_created": "1970-01-01 00:00:00",
+          "date_updated": null,
+          "video": {
+            "type": "wistia",
+            "project_id": "ayqh98vv72",
+            "external_id": "b9hj53xcr6",
+            "url": "https://fishingbooker.wistia.com/medias/b9hj53xcr6",
+            "photo": "https://embed-ssl.wistia.com/deliveries/22547618abb40673eaac5134e9954bee.webp?video_still_time=6",
+            "thumbnail": "https://embed-ssl.wistia.com/deliveries/22547618abb40673eaac5134e9954bee.webp?image_crop_resized=400x240&video_still_time=6",
+            "duration": 13.219,
+            "size": 12406243,
+            "width": 1080,
+            "height": 1920,
+            "aspect_ratio": 0.5625,
+            "id": "58942",
+            "date_created": "2025-11-27 04:08:57",
+            "date_updated": null
+          },
+          "is_custom_produced": false,
+          "custom_produced_tag_type": null
+        },
+        "distance_from_me": null,
+        "distance_from_destination": null,
+        "location": {
+          "title": "Malé"
+        },
+        "charter_destination_details": {
+          "address": "Boduthakurufaanu Magu",
+          "country_title": "Maldives",
+          "country_abbrev": "mv",
+          "location_title": "Malé",
+          "location_id": 61,
+          "destination_id": 34,
+          "postal_code": "",
+          "state_abbrev": null,
+          "state_title": null,
+          "display_format": {
+            "exact": "Boduthakurufaanu Magu, Malé, Maldives",
+            "location_state_country": "Malé, Maldives",
+            "location_state_title_country": "Malé, Maldives"
+          }
+        },
+        "rating": {
+          "count": 0,
+          "score": 0
+        },
+        "third_party_review_scores": [],
+        "review_statistics": {
+          "review_count": 0,
+          "rating": 0,
+          "rating_overall": 0,
+          "rating_equipment": 0,
+          "rating_captain": 0,
+          "stars": {
+            "_1": 0,
+            "_2": 0,
+            "_3": 0,
+            "_4": 0,
+            "_5": 0
+          }
+        },
+        "min_price": {
+          "value": 28,
+          "currency": {
+            "currency": "USD",
+            "title": "US Dollar"
+          },
+          "display_value": "US $28"
+        },
+        "loyalty_price": null,
+        "urls": {
+          "view": "https://boatbooker.com/charters/view/45699",
+          "search_results": null
+        },
+        "verification_badge": null,
+        "has_anglers_choice_award": false,
+        "flag_new_badge": false,
+        "new_badge": null,
+        "capacity": "20",
+        "length": "38",
+        "shortdesc": "Step aboard Arriva, a stunning 2024 Gulf Craft GT70, perfect for groups of up to 28 guests seeking speed, comfort, and style. Powered by three 250 HP Yamaha outboard engines, she cruises at an impressive 35 knots, making transfers and private charters smo",
+        "display_description": "Step aboard Arriva, a stunning 2024 Gulf Craft GT70, perfect for groups of up to 28 guests seeking speed, comfort, and style. Powered by three 250 HP Yamaha outboard engines, she cruises at an impressive 35 knots, making transfers and private charters smo",
+        "most_useful_review": null,
+        "free_cancellation_days_in_advance": "3",
+        "page_views": 2,
+        "has_recent_reports": false,
+        "scarcity": null,
+        "driving_distance": null,
+        "listing_type": "boat_tour",
+        "has_boat": true,
+        "location_id": 61,
+        "tripadvisor_location_id": null,
+        "boat_category": "Other",
+        "boat_type": "Other",
+        "cheapest_trip_for_activity": null
+      },
+      {
+        "id": 47254,
+        "license_status": "Pending",
+        "license_tag": null,
+        "lat": 4.1827226074135,
+        "lng": 73.51809879682,
+        "geopoint": {
+          "latitude": 4.1827226074135,
+          "longitude": 73.51809879682
+        },
+        "title": "Black Pearl 1",
+        "activities": [
+          "boat_yacht_tours",
+          "snorkeling_diving_tours",
+          "whale_dolphin_watching"
+        ],
+        "is_available": true,
+        "is_instant_book_active": false,
+        "is_free_cancellation_active": true,
+        "cover_photo": {
+          "charter_idcharter": "47254",
+          "description": null,
+          "cardinal": "0",
+          "path": "ff63a0a189d933ee0d33985f29b37417.jpg",
+          "width": "1600",
+          "height": "1200",
+          "aspect_ratio": "1.333",
+          "status": "optimized",
+          "created_date": "2025-12-24 06:10:21",
+          "id": "1134897",
+          "date_created": "1970-01-01 00:00:00",
+          "date_updated": null,
+          "urls": {
+            "small": "https://static.boatbooker.com/public/images/charters/47254/280x210-blur/ff63a0a189d933ee0d33985f29b37417.jpg",
+            "public": "https://static.boatbooker.com/public/images/charters/47254/public/ff63a0a189d933ee0d33985f29b37417.jpg",
+            "thumbnail": "https://static.boatbooker.com/public/images/charters/47254/thumbnail-blur/ff63a0a189d933ee0d33985f29b37417.jpg"
+          }
+        },
+        "has_video": false,
+        "charter_video": null,
+        "distance_from_me": null,
+        "distance_from_destination": null,
+        "location": {
+          "title": "Malé"
+        },
+        "charter_destination_details": {
+          "address": "Male - Hulhule Ferry",
+          "country_title": "Maldives",
+          "country_abbrev": "mv",
+          "location_title": "Malé",
+          "location_id": 61,
+          "destination_id": 34,
+          "postal_code": "50001",
+          "state_abbrev": null,
+          "state_title": null,
+          "display_format": {
+            "exact": "Male - Hulhule Ferry, Malé, 50001, Maldives",
+            "location_state_country": "Malé, Maldives",
+            "location_state_title_country": "Malé, Maldives"
+          }
+        },
+        "rating": {
+          "count": 1,
+          "score": 4.66
+        },
+        "third_party_review_scores": [],
+        "review_statistics": {
+          "review_count": 1,
+          "rating": 4.66,
+          "rating_overall": 5,
+          "rating_equipment": 4,
+          "rating_captain": 5,
+          "stars": {
+            "_1": 0,
+            "_2": 0,
+            "_3": 0,
+            "_4": 0,
+            "_5": 1
+          }
+        },
+        "min_price": {
+          "value": 550,
+          "currency": {
+            "currency": "USD",
+            "title": "US Dollar"
+          },
+          "display_value": "US $550"
+        },
+        "loyalty_price": null,
+        "urls": {
+          "view": "https://boatbooker.com/charters/view/47254",
+          "search_results": null
+        },
+        "verification_badge": null,
+        "has_anglers_choice_award": false,
+        "flag_new_badge": false,
+        "new_badge": null,
+        "capacity": "4",
+        "length": "23",
+        "shortdesc": "Experience the beauty of Mal&eacute; aboard Black Pearl 1, a 2020 Local PT Center Console designed for intimate, unforgettable adventures. Accommodating up to four guests, this sleek vessel is powered by an 80 HP Yamaha outboard engine, reaching speeds of",
+        "display_description": "Experience the beauty of Mal&eacute; aboard Black Pearl 1, a 2020 Local PT Center Console designed for intimate, unforgettable adventures. Accommodating up to four guests, this sleek vessel is powered by an 80 HP Yamaha outboard engine, reaching speeds of",
+        "most_useful_review": "\"communication prior to the tour was excellent. The crew was great and wanted to ensure we were happy.\" —&#8288; Brenda, ",
+        "free_cancellation_days_in_advance": "3",
+        "page_views": 2,
+        "has_recent_reports": false,
+        "scarcity": null,
+        "driving_distance": null,
+        "listing_type": "boat_tour",
+        "has_boat": true,
+        "location_id": 61,
+        "tripadvisor_location_id": null,
+        "boat_category": "Center console boats",
+        "boat_type": "Center console",
+        "cheapest_trip_for_activity": null
+      },
+      {
+        "id": 42036,
+        "license_status": "Pending",
+        "license_tag": null,
+        "lat": 4.172365922628,
+        "lng": 73.513283807036,
+        "geopoint": {
+          "latitude": 4.172365922628,
+          "longitude": 73.513283807036
+        },
+        "title": "Tide Explorer",
+        "activities": [
+          "boat_yacht_tours",
+          "sunset_dinner_cruises",
+          "island_hopping",
+          "paddleboard_activity",
+          "snorkeling_diving_tours",
+          "shark_diving",
+          "whale_dolphin_watching",
+          "fishing_charter",
+          "eco_tours",
+          "sandbar_tours",
+          "stingray_tours"
+        ],
+        "is_available": true,
+        "is_instant_book_active": false,
+        "is_free_cancellation_active": false,
+        "cover_photo": {
+          "charter_idcharter": "42036",
+          "description": null,
+          "cardinal": "0",
+          "path": "ab11ce566f4ccc8b759fe28548327901.jpg",
+          "width": "3840",
+          "height": "2160",
+          "aspect_ratio": "1.778",
+          "status": "optimized",
+          "created_date": "2025-06-16 20:03:55",
+          "id": "1095167",
+          "date_created": "1970-01-01 00:00:00",
+          "date_updated": null,
+          "urls": {
+            "small": "https://static.boatbooker.com/public/images/charters/42036/280x210-blur/ab11ce566f4ccc8b759fe28548327901.jpg",
+            "public": "https://static.boatbooker.com/public/images/charters/42036/public/ab11ce566f4ccc8b759fe28548327901.jpg",
+            "thumbnail": "https://static.boatbooker.com/public/images/charters/42036/thumbnail-blur/ab11ce566f4ccc8b759fe28548327901.jpg"
+          }
+        },
+        "has_video": true,
+        "charter_video": {
+          "charter_id": 42036,
+          "video_id": 57261,
+          "description": "",
+          "cardinal": 0,
+          "id": 29519,
+          "date_created": "1970-01-01 00:00:00",
+          "date_updated": null,
+          "video": {
+            "type": "wistia",
+            "project_id": "ayqh98vv72",
+            "external_id": "rkklae2wiz",
+            "url": "https://fishingbooker.wistia.com/medias/rkklae2wiz",
+            "photo": "https://embed-ssl.wistia.com/deliveries/3f1bb578e86aa0a4fc915c3c43cf2de1.webp?video_still_time=8",
+            "thumbnail": "https://embed-ssl.wistia.com/deliveries/3f1bb578e86aa0a4fc915c3c43cf2de1.webp?image_crop_resized=400x240&video_still_time=8",
+            "duration": 17.0667,
+            "size": 29336862,
+            "width": 1518,
+            "height": 2700,
+            "aspect_ratio": 0.56222222222222,
+            "id": "57261",
+            "date_created": "2025-06-16 19:59:52",
+            "date_updated": null
+          },
+          "is_custom_produced": false,
+          "custom_produced_tag_type": null
+        },
+        "distance_from_me": null,
+        "distance_from_destination": null,
+        "location": {
+          "title": "Malé"
+        },
+        "charter_destination_details": {
+          "address": "Lonuziyaarai Magu Rd, Malé 20109, Maldives",
+          "country_title": "Maldives",
+          "country_abbrev": "mv",
+          "location_title": "Malé",
+          "location_id": 61,
+          "destination_id": 34,
+          "postal_code": "20059",
+          "state_abbrev": null,
+          "state_title": null,
+          "display_format": {
+            "exact": "Lonuziyaarai Magu Rd, Malé 20109, Maldives, Malé, 20059, Maldives",
+            "location_state_country": "Malé, Maldives",
+            "location_state_title_country": "Malé, Maldives"
+          }
+        },
+        "rating": {
+          "count": 0,
+          "score": 0
+        },
+        "third_party_review_scores": [],
+        "review_statistics": {
+          "review_count": 0,
+          "rating": 0,
+          "rating_overall": 0,
+          "rating_equipment": 0,
+          "rating_captain": 0,
+          "stars": {
+            "_1": 0,
+            "_2": 0,
+            "_3": 0,
+            "_4": 0,
+            "_5": 0
+          }
+        },
+        "min_price": {
+          "value": 3300,
+          "currency": {
+            "currency": "USD",
+            "title": "US Dollar"
+          },
+          "display_value": "US $3,300"
+        },
+        "loyalty_price": null,
+        "urls": {
+          "view": "https://boatbooker.com/charters/view/42036",
+          "search_results": null
+        },
+        "verification_badge": null,
+        "has_anglers_choice_award": false,
+        "flag_new_badge": false,
+        "new_badge": null,
+        "capacity": "6",
+        "length": "38",
+        "shortdesc": "Tide Explorer invites you to discover the best of Mal&eacute;, Maldives, aboard their state-of-the-art 2025 Local 38 Center Console. Powered by twin 350 HP Honda outboards, this high-performance vessel reaches cruising speeds up to 40 knots&mdash;perfect ",
+        "display_description": "Tide Explorer invites you to discover the best of Mal&eacute;, Maldives, aboard their state-of-the-art 2025 Local 38 Center Console. Powered by twin 350 HP Honda outboards, this high-performance vessel reaches cruising speeds up to 40 knots&mdash;perfect ",
+        "most_useful_review": null,
+        "free_cancellation_days_in_advance": "30",
+        "page_views": 0,
+        "has_recent_reports": false,
+        "scarcity": null,
+        "driving_distance": null,
+        "listing_type": "boat_tour",
+        "has_boat": true,
+        "location_id": 61,
+        "tripadvisor_location_id": "33335296",
+        "boat_category": "Center console boats",
+        "boat_type": "Center console",
+        "cheapest_trip_for_activity": null
+      },
+      {
+        "id": 46472,
+        "license_status": "Pending",
+        "license_tag": null,
+        "lat": 4.217669599124,
+        "lng": 73.537219684656,
+        "geopoint": {
+          "latitude": 4.217669599124,
+          "longitude": 73.537219684656
+        },
+        "title": "Solara Maldives",
+        "activities": [
+          "boat_yacht_tours",
+          "paddleboard_activity",
+          "snorkeling_diving_tours",
+          "whale_dolphin_watching"
+        ],
+        "is_available": true,
+        "is_instant_book_active": false,
+        "is_free_cancellation_active": false,
+        "cover_photo": {
+          "charter_idcharter": "46472",
+          "description": null,
+          "cardinal": "0",
+          "path": "31c2e41525e464c854f695aa7d922efd.jpg",
+          "width": "6288",
+          "height": "4178",
+          "aspect_ratio": "1.505",
+          "status": "optimized",
+          "created_date": "2025-12-08 06:09:06",
+          "id": "1130822",
+          "date_created": "1970-01-01 00:00:00",
+          "date_updated": null,
+          "urls": {
+            "small": "https://static.boatbooker.com/public/images/charters/46472/280x210-blur/31c2e41525e464c854f695aa7d922efd.jpg",
+            "public": "https://static.boatbooker.com/public/images/charters/46472/public/31c2e41525e464c854f695aa7d922efd.jpg",
+            "thumbnail": "https://static.boatbooker.com/public/images/charters/46472/thumbnail-blur/31c2e41525e464c854f695aa7d922efd.jpg"
+          }
+        },
+        "has_video": false,
+        "charter_video": null,
+        "distance_from_me": null,
+        "distance_from_destination": null,
+        "location": {
+          "title": "Hulhumale"
+        },
+        "charter_destination_details": {
+          "address": "Hulhumale Lakudi Jetty (Hulhumale West Side Jetty)",
+          "country_title": "Maldives",
+          "country_abbrev": "mv",
+          "location_title": "Hulhumale",
+          "location_id": 1065,
+          "destination_id": 1054,
+          "postal_code": "20002",
+          "state_abbrev": null,
+          "state_title": null,
+          "display_format": {
+            "exact": "Hulhumale Lakudi Jetty (Hulhumale West Side Jetty), Hulhumale, 20002, Maldives",
+            "location_state_country": "Hulhumale, Maldives",
+            "location_state_title_country": "Hulhumale, Maldives"
+          }
+        },
+        "rating": {
+          "count": 0,
+          "score": 0
+        },
+        "third_party_review_scores": [],
+        "review_statistics": {
+          "review_count": 0,
+          "rating": 0,
+          "rating_overall": 0,
+          "rating_equipment": 0,
+          "rating_captain": 0,
+          "stars": {
+            "_1": 0,
+            "_2": 0,
+            "_3": 0,
+            "_4": 0,
+            "_5": 0
+          }
+        },
+        "min_price": {
+          "value": 3000,
+          "currency": {
+            "currency": "USD",
+            "title": "US Dollar"
+          },
+          "display_value": "US $3,000"
+        },
+        "loyalty_price": null,
+        "urls": {
+          "view": "https://boatbooker.com/charters/view/46472",
+          "search_results": null
+        },
+        "verification_badge": null,
+        "has_anglers_choice_award": false,
+        "flag_new_badge": false,
+        "new_badge": null,
+        "capacity": "30",
+        "length": "75",
+        "shortdesc": "Step aboard the 2024 Solara Motor Yacht, a sleek and modern vessel based in Hulhumale, perfect for exploring the breathtaking waters of the Maldives. Accommodating up to 10 guests, Solara offers a comfortable and memorable experience with air-conditioning",
+        "display_description": "Step aboard the 2024 Solara Motor Yacht, a sleek and modern vessel based in Hulhumale, perfect for exploring the breathtaking waters of the Maldives. Accommodating up to 10 guests, Solara offers a comfortable and memorable experience with air-conditioning",
+        "most_useful_review": null,
+        "free_cancellation_days_in_advance": "0",
+        "page_views": 4,
+        "has_recent_reports": false,
+        "scarcity": null,
+        "driving_distance": null,
+        "listing_type": "boat_rental",
+        "has_boat": true,
+        "location_id": 1065,
+        "tripadvisor_location_id": null,
+        "boat_category": "Yachts",
+        "boat_type": "Motor yacht",
+        "cheapest_trip_for_activity": null
+      },
+      {
+        "id": 45770,
+        "license_status": "Verified",
+        "license_tag": null,
+        "lat": 4.1883394101925,
+        "lng": 73.527025149985,
+        "geopoint": {
+          "latitude": 4.1883394101925,
+          "longitude": 73.527025149985
+        },
+        "title": "Yacht Maldives – Stella 2",
+        "activities": [
+          "boat_yacht_tours",
+          "sailing_catamaran_gulet_tours",
+          "sunset_dinner_cruises",
+          "island_hopping",
+          "canoe_kayak_tours",
+          "snorkeling_diving_tours",
+          "shark_diving",
+          "whale_dolphin_watching",
+          "fishing_charter",
+          "sandbar_tours",
+          "stingray_tours"
+        ],
+        "is_available": true,
+        "is_instant_book_active": false,
+        "is_free_cancellation_active": false,
+        "cover_photo": {
+          "charter_idcharter": "45770",
+          "description": null,
+          "cardinal": "0",
+          "path": "4025afbd0afd6d1d5bbed9ec025f9f28.jpg",
+          "width": "4572",
+          "height": "3409",
+          "aspect_ratio": "1.341",
+          "status": "optimized",
+          "created_date": "2025-11-20 09:33:01",
+          "id": "1126288",
+          "date_created": "1970-01-01 00:00:00",
+          "date_updated": null,
+          "urls": {
+            "small": "https://static.boatbooker.com/public/images/charters/45770/280x210-blur/4025afbd0afd6d1d5bbed9ec025f9f28.jpg",
+            "public": "https://static.boatbooker.com/public/images/charters/45770/public/4025afbd0afd6d1d5bbed9ec025f9f28.jpg",
+            "thumbnail": "https://static.boatbooker.com/public/images/charters/45770/thumbnail-blur/4025afbd0afd6d1d5bbed9ec025f9f28.jpg"
+          }
+        },
+        "has_video": false,
+        "charter_video": null,
+        "distance_from_me": null,
+        "distance_from_destination": null,
+        "location": {
+          "title": "Malé"
+        },
+        "charter_destination_details": {
+          "address": "Velana International Airport Arrivals Terminal",
+          "country_title": "Maldives",
+          "country_abbrev": "mv",
+          "location_title": "Malé",
+          "location_id": 61,
+          "destination_id": 34,
+          "postal_code": "",
+          "state_abbrev": null,
+          "state_title": null,
+          "display_format": {
+            "exact": "Velana International Airport Arrivals Terminal, Malé, Maldives",
+            "location_state_country": "Malé, Maldives",
+            "location_state_title_country": "Malé, Maldives"
+          }
+        },
+        "rating": {
+          "count": 0,
+          "score": 0
+        },
+        "third_party_review_scores": [],
+        "review_statistics": {
+          "review_count": 0,
+          "rating": 0,
+          "rating_overall": 0,
+          "rating_equipment": 0,
+          "rating_captain": 0,
+          "stars": {
+            "_1": 0,
+            "_2": 0,
+            "_3": 0,
+            "_4": 0,
+            "_5": 0
+          }
+        },
+        "min_price": {
+          "value": 1247,
+          "currency": {
+            "currency": "USD",
+            "title": "US Dollar"
+          },
+          "display_value": "US $1,247"
+        },
+        "loyalty_price": null,
+        "urls": {
+          "view": "https://boatbooker.com/charters/view/45770",
+          "search_results": null
+        },
+        "verification_badge": "enhanced",
+        "has_anglers_choice_award": false,
+        "flag_new_badge": false,
+        "new_badge": null,
+        "capacity": "6",
+        "length": "71",
+        "shortdesc": "Stella 2 is a beautifully maintained 2007 Custom-Made Dhoni yacht, fully restored in 2020 and based in Mal&eacute;. Designed for intimate adventures with up to six guests, she is powered by a reliable 190 HP Yanmar diesel engine, cruising comfortably at 1",
+        "display_description": "Stella 2 is a beautifully maintained 2007 Custom-Made Dhoni yacht, fully restored in 2020 and based in Mal&eacute;. Designed for intimate adventures with up to six guests, she is powered by a reliable 190 HP Yanmar diesel engine, cruising comfortably at 1",
+        "most_useful_review": null,
+        "free_cancellation_days_in_advance": "0",
+        "page_views": 1,
+        "has_recent_reports": false,
+        "scarcity": null,
+        "driving_distance": null,
+        "listing_type": "boat_rental",
+        "has_boat": true,
+        "location_id": 61,
+        "tripadvisor_location_id": null,
+        "boat_category": "Yachts",
+        "boat_type": "Motor yacht",
+        "cheapest_trip_for_activity": null
+      },
+      {
+        "id": 44574,
+        "license_status": "Pending",
+        "license_tag": null,
+        "lat": 4.1744536145039,
+        "lng": 73.513707265092,
+        "geopoint": {
+          "latitude": 4.1744536145039,
+          "longitude": 73.513707265092
+        },
+        "title": "Banison",
+        "activities": [
+          "island_hopping"
+        ],
+        "is_available": true,
+        "is_instant_book_active": true,
+        "is_free_cancellation_active": true,
+        "cover_photo": {
+          "charter_idcharter": "44574",
+          "description": "A",
+          "cardinal": "0",
+          "path": "11da0b62b6f8a550030760306ec297b6.jpg",
+          "width": "4032",
+          "height": "3024",
+          "aspect_ratio": "1.333",
+          "status": "optimized",
+          "created_date": "2025-10-16 20:15:35",
+          "id": "1118524",
+          "date_created": "1970-01-01 00:00:00",
+          "date_updated": null,
+          "urls": {
+            "small": "https://static.boatbooker.com/public/images/charters/44574/280x210-blur/11da0b62b6f8a550030760306ec297b6.jpg",
+            "public": "https://static.boatbooker.com/public/images/charters/44574/public/11da0b62b6f8a550030760306ec297b6.jpg",
+            "thumbnail": "https://static.boatbooker.com/public/images/charters/44574/thumbnail-blur/11da0b62b6f8a550030760306ec297b6.jpg"
+          }
+        },
+        "has_video": false,
+        "charter_video": null,
+        "distance_from_me": null,
+        "distance_from_destination": null,
+        "location": {
+          "title": "Malé"
+        },
+        "charter_destination_details": {
+          "address": "Banafsaa Magu",
+          "country_title": "Maldives",
+          "country_abbrev": "mv",
+          "location_title": "Malé",
+          "location_id": 61,
+          "destination_id": 34,
+          "postal_code": "20002",
+          "state_abbrev": null,
+          "state_title": null,
+          "display_format": {
+            "exact": "Banafsaa Magu, Malé, 20002, Maldives",
+            "location_state_country": "Malé, Maldives",
+            "location_state_title_country": "Malé, Maldives"
+          }
+        },
+        "rating": {
+          "count": 0,
+          "score": 0
+        },
+        "third_party_review_scores": [],
+        "review_statistics": {
+          "review_count": 0,
+          "rating": 0,
+          "rating_overall": 0,
+          "rating_equipment": 0,
+          "rating_captain": 0,
+          "stars": {
+            "_1": 0,
+            "_2": 0,
+            "_3": 0,
+            "_4": 0,
+            "_5": 0
+          }
+        },
+        "min_price": {
+          "value": 20,
+          "currency": {
+            "currency": "USD",
+            "title": "US Dollar"
+          },
+          "display_value": "US $20"
+        },
+        "loyalty_price": null,
+        "urls": {
+          "view": "https://boatbooker.com/charters/view/44574",
+          "search_results": null
+        },
+        "verification_badge": null,
+        "has_anglers_choice_award": false,
+        "flag_new_badge": true,
+        "new_badge": "new-captain",
+        "capacity": "18",
+        "length": "28",
+        "shortdesc": "Banison is a 2023 Speed boat fiber 09-P Other (restored in 2025), based out of Mal&eacute;. It can take up to eighteen guests. The boat is powered by two 130 HP gasoline outboard Yamaha engines, offering a maximum cruising speed of 34 knots. The captain s",
+        "display_description": "Banison is a 2023 Speed boat fiber 09-P Other (restored in 2025), based out of Mal&eacute;. It can take up to eighteen guests. The boat is powered by two 130 HP gasoline outboard Yamaha engines, offering a maximum cruising speed of 34 knots. The captain s",
+        "most_useful_review": null,
+        "free_cancellation_days_in_advance": "3",
+        "page_views": 1,
+        "has_recent_reports": false,
+        "scarcity": null,
+        "driving_distance": null,
+        "listing_type": "boat_rental",
+        "has_boat": true,
+        "location_id": 61,
+        "tripadvisor_location_id": null,
+        "boat_category": "Other",
+        "boat_type": "Other",
+        "cheapest_trip_for_activity": null
+      },
+      {
+        "id": 45774,
+        "license_status": "Verified",
+        "license_tag": null,
+        "lat": 4.1883264803776,
+        "lng": 73.527046607657,
+        "geopoint": {
+          "latitude": 4.1883264803776,
+          "longitude": 73.527046607657
+        },
+        "title": "Yacht Maldives – Over Reef",
+        "activities": [
+          "boat_yacht_tours",
+          "sailing_catamaran_gulet_tours",
+          "sunset_dinner_cruises",
+          "island_hopping",
+          "paddleboard_activity",
+          "snorkeling_diving_tours",
+          "shark_diving",
+          "whale_dolphin_watching",
+          "fishing_charter",
+          "sandbar_tours",
+          "stingray_tours"
+        ],
+        "is_available": true,
+        "is_instant_book_active": false,
+        "is_free_cancellation_active": false,
+        "cover_photo": {
+          "charter_idcharter": "45774",
+          "description": null,
+          "cardinal": "0",
+          "path": "ce815edbe2292f332c45858fe62ace32.jpg",
+          "width": "2272",
+          "height": "1701",
+          "aspect_ratio": "1.336",
+          "status": "optimized",
+          "created_date": "2025-11-20 09:44:00",
+          "id": "1126294",
+          "date_created": "1970-01-01 00:00:00",
+          "date_updated": null,
+          "urls": {
+            "small": "https://static.boatbooker.com/public/images/charters/45774/280x210-blur/ce815edbe2292f332c45858fe62ace32.jpg",
+            "public": "https://static.boatbooker.com/public/images/charters/45774/public/ce815edbe2292f332c45858fe62ace32.jpg",
+            "thumbnail": "https://static.boatbooker.com/public/images/charters/45774/thumbnail-blur/ce815edbe2292f332c45858fe62ace32.jpg"
+          }
+        },
+        "has_video": false,
+        "charter_video": null,
+        "distance_from_me": null,
+        "distance_from_destination": null,
+        "location": {
+          "title": "Malé"
+        },
+        "charter_destination_details": {
+          "address": "Velana International Airport Arrivals Terminal",
+          "country_title": "Maldives",
+          "country_abbrev": "mv",
+          "location_title": "Malé",
+          "location_id": 61,
+          "destination_id": 34,
+          "postal_code": "",
+          "state_abbrev": null,
+          "state_title": null,
+          "display_format": {
+            "exact": "Velana International Airport Arrivals Terminal, Malé, Maldives",
+            "location_state_country": "Malé, Maldives",
+            "location_state_title_country": "Malé, Maldives"
+          }
+        },
+        "rating": {
+          "count": 0,
+          "score": 0
+        },
+        "third_party_review_scores": [],
+        "review_statistics": {
+          "review_count": 0,
+          "rating": 0,
+          "rating_overall": 0,
+          "rating_equipment": 0,
+          "rating_captain": 0,
+          "stars": {
+            "_1": 0,
+            "_2": 0,
+            "_3": 0,
+            "_4": 0,
+            "_5": 0
+          }
+        },
+        "min_price": {
+          "value": 1757,
+          "currency": {
+            "currency": "USD",
+            "title": "US Dollar"
+          },
+          "display_value": "US $1,757"
+        },
+        "loyalty_price": null,
+        "urls": {
+          "view": "https://boatbooker.com/charters/view/45774",
+          "search_results": null
+        },
+        "verification_badge": "enhanced",
+        "has_anglers_choice_award": false,
+        "flag_new_badge": false,
+        "new_badge": null,
+        "capacity": "6",
+        "length": "54",
+        "shortdesc": "Over Reef is a luxurious 2019 Overblue 54 Power Catamaran based in Mal&eacute;, offering an exclusive private escape for up to six guests. Powered by twin 210 HP Volvo Penta engines and cruising smoothly at 7 knots, this modern catamaran delivers comfort,",
+        "display_description": "Over Reef is a luxurious 2019 Overblue 54 Power Catamaran based in Mal&eacute;, offering an exclusive private escape for up to six guests. Powered by twin 210 HP Volvo Penta engines and cruising smoothly at 7 knots, this modern catamaran delivers comfort,",
+        "most_useful_review": null,
+        "free_cancellation_days_in_advance": "0",
+        "page_views": 2,
+        "has_recent_reports": false,
+        "scarcity": null,
+        "driving_distance": null,
+        "listing_type": "boat_rental",
+        "has_boat": true,
+        "location_id": 61,
+        "tripadvisor_location_id": null,
+        "boat_category": "Catamarans",
+        "boat_type": "Catamaran",
+        "cheapest_trip_for_activity": null
+      },
+      {
+        "id": 39403,
+        "license_status": "Pending",
+        "license_tag": null,
+        "lat": 4.188722799112,
+        "lng": 73.526247407942,
+        "geopoint": {
+          "latitude": 4.188722799112,
+          "longitude": 73.526247407942
+        },
+        "title": "Fascination Maldives",
+        "activities": [
+          "boat_yacht_tours",
+          "island_hopping",
+          "paddleboard_activity",
+          "snorkeling_diving_tours",
+          "whale_dolphin_watching",
+          "fishing_charter"
+        ],
+        "is_available": true,
+        "is_instant_book_active": false,
+        "is_free_cancellation_active": false,
+        "cover_photo": {
+          "charter_idcharter": "39403",
+          "description": null,
+          "cardinal": "0",
+          "path": "e386ab8674faf732ecb597c4d3d1c3e7.jpg",
+          "width": "3964",
+          "height": "2230",
+          "aspect_ratio": "1.778",
+          "status": "optimized",
+          "created_date": "2024-11-04 13:06:57",
+          "id": "1061408",
+          "date_created": "1970-01-01 00:00:00",
+          "date_updated": null,
+          "urls": {
+            "small": "https://static.boatbooker.com/public/images/charters/39403/280x210-blur/e386ab8674faf732ecb597c4d3d1c3e7.jpg",
+            "public": "https://static.boatbooker.com/public/images/charters/39403/public/e386ab8674faf732ecb597c4d3d1c3e7.jpg",
+            "thumbnail": "https://static.boatbooker.com/public/images/charters/39403/thumbnail-blur/e386ab8674faf732ecb597c4d3d1c3e7.jpg"
+          }
+        },
+        "has_video": true,
+        "charter_video": {
+          "charter_id": 39403,
+          "video_id": 55915,
+          "description": "",
+          "cardinal": 0,
+          "id": 28299,
+          "date_created": "1970-01-01 00:00:00",
+          "date_updated": null,
+          "video": {
+            "type": "wistia",
+            "project_id": "ayqh98vv72",
+            "external_id": "4k2ekv6aid",
+            "url": "https://fishingbooker.wistia.com/medias/4k2ekv6aid",
+            "photo": "https://embed-ssl.wistia.com/deliveries/cc2dd5997042231dcacf3be57486c43e.webp?video_still_time=11",
+            "thumbnail": "https://embed-ssl.wistia.com/deliveries/cc2dd5997042231dcacf3be57486c43e.webp?image_crop_resized=400x240&video_still_time=11",
+            "duration": 23,
+            "size": 94827229,
+            "width": 1920,
+            "height": 1080,
+            "aspect_ratio": 1.7777777777778,
+            "id": "55915",
+            "date_created": "2024-11-04 13:38:59",
+            "date_updated": null
+          },
+          "is_custom_produced": false,
+          "custom_produced_tag_type": null
+        },
+        "distance_from_me": null,
+        "distance_from_destination": null,
+        "location": {
+          "title": "Malé"
+        },
+        "charter_destination_details": {
+          "address": "AIRPORT Velana International ",
+          "country_title": "Maldives",
+          "country_abbrev": "mv",
+          "location_title": "Malé",
+          "location_id": 61,
+          "destination_id": 34,
+          "postal_code": "22000",
+          "state_abbrev": null,
+          "state_title": null,
+          "display_format": {
+            "exact": "AIRPORT Velana International , Malé, 22000, Maldives",
+            "location_state_country": "Malé, Maldives",
+            "location_state_title_country": "Malé, Maldives"
+          }
+        },
+        "rating": {
+          "count": 0,
+          "score": 0
+        },
+        "third_party_review_scores": {
+          "fishingbooker": {
+            "review_count": 2,
+            "review_score": 5,
+            "source": "FishingBooker"
+          }
+        },
+        "review_statistics": {
+          "review_count": 0,
+          "rating": 0,
+          "rating_overall": 0,
+          "rating_equipment": 0,
+          "rating_captain": 0,
+          "stars": {
+            "_1": 0,
+            "_2": 0,
+            "_3": 0,
+            "_4": 0,
+            "_5": 0
+          }
+        },
+        "min_price": {
+          "value": 1700,
+          "currency": {
+            "currency": "USD",
+            "title": "US Dollar"
+          },
+          "display_value": "US $1,700"
+        },
+        "loyalty_price": null,
+        "urls": {
+          "view": "https://boatbooker.com/charters/view/39403",
+          "search_results": null
+        },
+        "verification_badge": null,
+        "has_anglers_choice_award": false,
+        "flag_new_badge": false,
+        "new_badge": null,
+        "capacity": "6",
+        "length": "66",
+        "shortdesc": "Step aboard Fascination Maldives, a luxurious 65-foot Falcon motor yacht that redefines elegance and comfort on the water. Based out of Mal&eacute;, this 2008 beauty offers an intimate experience for up to six guests, powered by two 820 HP engines for a s",
+        "display_description": "Step aboard Fascination Maldives, a luxurious 65-foot Falcon motor yacht that redefines elegance and comfort on the water. Based out of Mal&eacute;, this 2008 beauty offers an intimate experience for up to six guests, powered by two 820 HP engines for a s",
+        "most_useful_review": null,
+        "free_cancellation_days_in_advance": "30",
+        "page_views": 0,
+        "has_recent_reports": false,
+        "scarcity": null,
+        "driving_distance": null,
+        "listing_type": "boat_tour",
+        "has_boat": true,
+        "location_id": 61,
+        "tripadvisor_location_id": null,
+        "boat_category": "Yachts",
+        "boat_type": "Motor yacht",
+        "cheapest_trip_for_activity": null
+      },
+      {
+        "id": 46952,
+        "license_status": "Pending",
+        "license_tag": null,
+        "lat": 4.2177635853399,
+        "lng": 73.537457017197,
+        "geopoint": {
+          "latitude": 4.2177635853399,
+          "longitude": 73.537457017197
+        },
+        "title": "Solrise Cruises – Sail La Vie",
+        "activities": [
+          "sailing_catamaran_gulet_tours",
+          "sunset_dinner_cruises",
+          "island_hopping",
+          "snorkeling_diving_tours",
+          "whale_dolphin_watching",
+          "sandbar_tours"
+        ],
+        "is_available": true,
+        "is_instant_book_active": false,
+        "is_free_cancellation_active": false,
+        "cover_photo": {
+          "charter_idcharter": "46952",
+          "description": null,
+          "cardinal": "0",
+          "path": "cde59a8fa107d67f00f31768362d3503.jpg",
+          "width": "1280",
+          "height": "950",
+          "aspect_ratio": "1.347",
+          "status": "optimized",
+          "created_date": "2025-12-17 16:18:49",
+          "id": "1133055",
+          "date_created": "1970-01-01 00:00:00",
+          "date_updated": null,
+          "urls": {
+            "small": "https://static.boatbooker.com/public/images/charters/46952/280x210-blur/cde59a8fa107d67f00f31768362d3503.jpg",
+            "public": "https://static.boatbooker.com/public/images/charters/46952/public/cde59a8fa107d67f00f31768362d3503.jpg",
+            "thumbnail": "https://static.boatbooker.com/public/images/charters/46952/thumbnail-blur/cde59a8fa107d67f00f31768362d3503.jpg"
+          }
+        },
+        "has_video": false,
+        "charter_video": null,
+        "distance_from_me": null,
+        "distance_from_destination": null,
+        "location": {
+          "title": "Hulhumale"
+        },
+        "charter_destination_details": {
+          "address": "11611 Bageechaa Higun",
+          "country_title": "Maldives",
+          "country_abbrev": "mv",
+          "location_title": "Hulhumale",
+          "location_id": 1065,
+          "destination_id": 1054,
+          "postal_code": "23000",
+          "state_abbrev": null,
+          "state_title": null,
+          "display_format": {
+            "exact": "11611 Bageechaa Higun, Hulhumale, 23000, Maldives",
+            "location_state_country": "Hulhumale, Maldives",
+            "location_state_title_country": "Hulhumale, Maldives"
+          }
+        },
+        "rating": {
+          "count": 0,
+          "score": 0
+        },
+        "third_party_review_scores": [],
+        "review_statistics": {
+          "review_count": 0,
+          "rating": 0,
+          "rating_overall": 0,
+          "rating_equipment": 0,
+          "rating_captain": 0,
+          "stars": {
+            "_1": 0,
+            "_2": 0,
+            "_3": 0,
+            "_4": 0,
+            "_5": 0
+          }
+        },
+        "min_price": {
+          "value": 1995,
+          "currency": {
+            "currency": "USD",
+            "title": "US Dollar"
+          },
+          "display_value": "US $1,995"
+        },
+        "loyalty_price": null,
+        "urls": {
+          "view": "https://boatbooker.com/charters/view/46952",
+          "search_results": null
+        },
+        "verification_badge": null,
+        "has_anglers_choice_award": false,
+        "flag_new_badge": false,
+        "new_badge": null,
+        "capacity": "4",
+        "length": "40",
+        "shortdesc": "Solrise Cruises &ndash; Sail La Vie is a beautifully maintained 2019 Lagoon 40 catamaran, operating out of Hulhumale and designed for relaxed, upscale experiences on the water. Welcoming up to 10 guests, this spacious catamaran is powered by twin 45 HP Ya",
+        "display_description": "Solrise Cruises &ndash; Sail La Vie is a beautifully maintained 2019 Lagoon 40 catamaran, operating out of Hulhumale and designed for relaxed, upscale experiences on the water. Welcoming up to 10 guests, this spacious catamaran is powered by twin 45 HP Ya",
+        "most_useful_review": null,
+        "free_cancellation_days_in_advance": "30",
+        "page_views": 5,
+        "has_recent_reports": false,
+        "scarcity": null,
+        "driving_distance": null,
+        "listing_type": "boat_rental",
+        "has_boat": true,
+        "location_id": 1065,
+        "tripadvisor_location_id": null,
+        "boat_category": "Catamarans",
+        "boat_type": "Catamaran",
+        "cheapest_trip_for_activity": null
+      },
+      {
+        "id": 42717,
+        "license_status": "Verified",
+        "license_tag": null,
+        "lat": 4.1888191007078,
+        "lng": 73.527349442291,
+        "geopoint": {
+          "latitude": 4.1888191007078,
+          "longitude": 73.527349442291
+        },
+        "title": "Atoll Villa",
+        "activities": [
+          "boat_yacht_tours",
+          "island_hopping",
+          "sandbar_tours"
+        ],
+        "is_available": true,
+        "is_instant_book_active": false,
+        "is_free_cancellation_active": true,
+        "cover_photo": {
+          "charter_idcharter": "42717",
+          "description": "Privy deck with spa Jacuzzi atoll vila",
+          "cardinal": "0",
+          "path": "7f01925ec2c421a8d399910276d6a7d2.jpeg",
+          "width": "720",
+          "height": "1280",
+          "aspect_ratio": "0.562",
+          "status": "optimized",
+          "created_date": "2025-07-13 23:41:29",
+          "id": "1100209",
+          "date_created": "1970-01-01 00:00:00",
+          "date_updated": null,
+          "urls": {
+            "small": "https://static.boatbooker.com/public/images/charters/42717/280x210-blur/7f01925ec2c421a8d399910276d6a7d2.jpeg",
+            "public": "https://static.boatbooker.com/public/images/charters/42717/public/7f01925ec2c421a8d399910276d6a7d2.jpeg",
+            "thumbnail": "https://static.boatbooker.com/public/images/charters/42717/thumbnail-blur/7f01925ec2c421a8d399910276d6a7d2.jpeg"
+          }
+        },
+        "has_video": false,
+        "charter_video": null,
+        "distance_from_me": null,
+        "distance_from_destination": null,
+        "location": {
+          "title": "Malé"
+        },
+        "charter_destination_details": {
+          "address": "Airport Main Road",
+          "country_title": "Maldives",
+          "country_abbrev": "mv",
+          "location_title": "Malé",
+          "location_id": 61,
+          "destination_id": 34,
+          "postal_code": "22000",
+          "state_abbrev": null,
+          "state_title": null,
+          "display_format": {
+            "exact": "Airport Main Road, Malé, 22000, Maldives",
+            "location_state_country": "Malé, Maldives",
+            "location_state_title_country": "Malé, Maldives"
+          }
+        },
+        "rating": {
+          "count": 0,
+          "score": 0
+        },
+        "third_party_review_scores": [],
+        "review_statistics": {
+          "review_count": 0,
+          "rating": 0,
+          "rating_overall": 0,
+          "rating_equipment": 0,
+          "rating_captain": 0,
+          "stars": {
+            "_1": 0,
+            "_2": 0,
+            "_3": 0,
+            "_4": 0,
+            "_5": 0
+          }
+        },
+        "min_price": {
+          "value": 240,
+          "currency": {
+            "currency": "USD",
+            "title": "US Dollar"
+          },
+          "display_value": "US $240"
+        },
+        "loyalty_price": null,
+        "urls": {
+          "view": "https://boatbooker.com/charters/view/42717",
+          "search_results": null
+        },
+        "verification_badge": "enhanced",
+        "has_anglers_choice_award": false,
+        "flag_new_badge": false,
+        "new_badge": null,
+        "capacity": "8",
+        "length": "85",
+        "shortdesc": "Step aboard Atoll Villa, a stunning 2024 Tailored Motor Yacht crafted by Maldives Boat Yard and based in Mal&eacute;. Designed for comfort and style, this yacht welcomes up to eight guests for unforgettable experiences across the Maldives. Powered by a ro",
+        "display_description": "Step aboard Atoll Villa, a stunning 2024 Tailored Motor Yacht crafted by Maldives Boat Yard and based in Mal&eacute;. Designed for comfort and style, this yacht welcomes up to eight guests for unforgettable experiences across the Maldives. Powered by a ro",
+        "most_useful_review": null,
+        "free_cancellation_days_in_advance": "7",
+        "page_views": 2,
+        "has_recent_reports": false,
+        "scarcity": null,
+        "driving_distance": null,
+        "listing_type": "boat_tour",
+        "has_boat": true,
+        "location_id": 61,
+        "tripadvisor_location_id": null,
+        "boat_category": "Yachts",
+        "boat_type": "Motor yacht",
+        "cheapest_trip_for_activity": null
+      },
+      {
+        "id": 48423,
+        "license_status": "Verified",
+        "license_tag": null,
+        "lat": 4.1731879845998,
+        "lng": 73.515375070274,
+        "geopoint": {
+          "latitude": 4.1731879845998,
+          "longitude": 73.515375070274
+        },
+        "title": "Mantis",
+        "activities": [
+          "boat_yacht_tours",
+          "snorkeling_diving_tours",
+          "whale_dolphin_watching",
+          "eco_tours",
+          "sandbar_tours",
+          "stingray_tours"
+        ],
+        "is_available": false,
+        "is_instant_book_active": true,
+        "is_free_cancellation_active": true,
+        "cover_photo": {
+          "charter_idcharter": "48423",
+          "description": null,
+          "cardinal": "0",
+          "path": "03df9ffc5e0b24f7bd67c2a8e98c0969.jpg",
+          "width": "1290",
+          "height": "775",
+          "aspect_ratio": "1.665",
+          "status": "optimized",
+          "created_date": "2026-03-19 10:50:36",
+          "id": "1155307",
+          "date_created": "2026-03-19 10:50:36",
+          "date_updated": "2026-03-19 10:50:45",
+          "urls": {
+            "small": "https://static.boatbooker.com/public/images/charters/48423/280x210-blur/03df9ffc5e0b24f7bd67c2a8e98c0969.jpg",
+            "public": "https://static.boatbooker.com/public/images/charters/48423/public/03df9ffc5e0b24f7bd67c2a8e98c0969.jpg",
+            "thumbnail": "https://static.boatbooker.com/public/images/charters/48423/thumbnail-blur/03df9ffc5e0b24f7bd67c2a8e98c0969.jpg"
+          }
+        },
+        "has_video": false,
+        "charter_video": null,
+        "distance_from_me": null,
+        "distance_from_destination": null,
+        "location": {
+          "title": "Malé"
+        },
+        "charter_destination_details": {
+          "address": "Kinbigas Magu",
+          "country_title": "Maldives",
+          "country_abbrev": "mv",
+          "location_title": "Malé",
+          "location_id": 61,
+          "destination_id": 34,
+          "postal_code": "20049",
+          "state_abbrev": null,
+          "state_title": null,
+          "display_format": {
+            "exact": "Kinbigas Magu, Malé, 20049, Maldives",
+            "location_state_country": "Malé, Maldives",
+            "location_state_title_country": "Malé, Maldives"
+          }
+        },
+        "rating": {
+          "count": 0,
+          "score": 0
+        },
+        "third_party_review_scores": [],
+        "review_statistics": {
+          "review_count": 0,
+          "rating": 0,
+          "rating_overall": 0,
+          "rating_equipment": 0,
+          "rating_captain": 0,
+          "stars": {
+            "_1": 0,
+            "_2": 0,
+            "_3": 0,
+            "_4": 0,
+            "_5": 0
+          }
+        },
+        "min_price": {
+          "value": 200,
+          "currency": {
+            "currency": "USD",
+            "title": "US Dollar"
+          },
+          "display_value": "US $200"
+        },
+        "loyalty_price": null,
+        "urls": {
+          "view": "https://boatbooker.com/charters/view/48423",
+          "search_results": null
+        },
+        "verification_badge": "enhanced",
+        "has_anglers_choice_award": false,
+        "flag_new_badge": true,
+        "new_badge": "new-captain",
+        "capacity": "18",
+        "length": "36",
+        "shortdesc": "Step aboard Mantis, a sleek 2027 Kisser Craft X36 Sportfishing vessel based in Mal&eacute;, designed for unforgettable days on the water. With space for up to 18 guests, this high-performance boat is powered by twin 250 HP Yamaha outboards, reaching cruis",
+        "display_description": "Step aboard Mantis, a sleek 2027 Kisser Craft X36 Sportfishing vessel based in Mal&eacute;, designed for unforgettable days on the water. With space for up to 18 guests, this high-performance boat is powered by twin 250 HP Yamaha outboards, reaching cruis",
+        "most_useful_review": null,
+        "free_cancellation_days_in_advance": "3",
+        "page_views": 3,
+        "has_recent_reports": false,
+        "scarcity": null,
+        "driving_distance": null,
+        "listing_type": "boat_tour",
+        "has_boat": true,
+        "location_id": 61,
+        "tripadvisor_location_id": null,
+        "boat_category": "Sportfishing boats",
+        "boat_type": "Sportfishing",
+        "cheapest_trip_for_activity": null
+      },
+      {
+        "id": 49133,
+        "license_status": "Pending",
+        "license_tag": null,
+        "lat": 4.2171429978868,
+        "lng": 73.537253169312,
+        "geopoint": {
+          "latitude": 4.2171429978868,
+          "longitude": 73.537253169312
+        },
+        "title": "Blue Sea Explorer",
+        "activities": [
+          "boat_yacht_tours",
+          "sunset_dinner_cruises",
+          "island_hopping",
+          "paddleboard_activity",
+          "snorkeling_diving_tours",
+          "shark_diving",
+          "whale_dolphin_watching",
+          "sandbar_tours"
+        ],
+        "is_available": false,
+        "is_instant_book_active": true,
+        "is_free_cancellation_active": true,
+        "cover_photo": {
+          "charter_idcharter": "49133",
+          "description": null,
+          "cardinal": "0",
+          "path": "d23ba7623425f2cc1a7b991ef95603cc.jpg",
+          "width": "8064",
+          "height": "4536",
+          "aspect_ratio": "1.778",
+          "status": "optimized",
+          "created_date": "2026-03-11 20:34:37",
+          "id": "1152780",
+          "date_created": "2026-03-11 20:34:37",
+          "date_updated": "2026-03-11 20:35:19",
+          "urls": {
+            "small": "https://static.boatbooker.com/public/images/charters/49133/280x210-blur/d23ba7623425f2cc1a7b991ef95603cc.jpg",
+            "public": "https://static.boatbooker.com/public/images/charters/49133/public/d23ba7623425f2cc1a7b991ef95603cc.jpg",
+            "thumbnail": "https://static.boatbooker.com/public/images/charters/49133/thumbnail-blur/d23ba7623425f2cc1a7b991ef95603cc.jpg"
+          }
+        },
+        "has_video": true,
+        "charter_video": {
+          "charter_id": 49133,
+          "video_id": 60152,
+          "description": "",
+          "cardinal": 0,
+          "id": 31964,
+          "date_created": "2026-03-11 20:57:25",
+          "date_updated": null,
+          "video": {
+            "type": "wistia",
+            "project_id": "ayqh98vv72",
+            "external_id": "eooiohe8md",
+            "url": "https://fishingbooker.wistia.com/medias/eooiohe8md",
+            "photo": "https://embed-ssl.wistia.com/deliveries/53a2e4f84e183df380318f3c96beecca.jpg",
+            "thumbnail": "https://embed-ssl.wistia.com/deliveries/53a2e4f84e183df380318f3c96beecca.jpg?image_crop_resized=400x240",
+            "duration": 12.6293,
+            "size": 214852868,
+            "width": 3840,
+            "height": 2160,
+            "aspect_ratio": 1.7777777777778,
+            "id": "60152",
+            "date_created": "2026-03-11 20:57:20",
+            "date_updated": "2026-03-12 13:55:33"
+          },
+          "is_custom_produced": false,
+          "custom_produced_tag_type": null
+        },
+        "distance_from_me": null,
+        "distance_from_destination": null,
+        "location": {
+          "title": "Hulhumale"
+        },
+        "charter_destination_details": {
+          "address": "11611 Bageechaa Higun",
+          "country_title": "Maldives",
+          "country_abbrev": "mv",
+          "location_title": "Hulhumale",
+          "location_id": 1065,
+          "destination_id": 1054,
+          "postal_code": "23000",
+          "state_abbrev": null,
+          "state_title": null,
+          "display_format": {
+            "exact": "11611 Bageechaa Higun, Hulhumale, 23000, Maldives",
+            "location_state_country": "Hulhumale, Maldives",
+            "location_state_title_country": "Hulhumale, Maldives"
+          }
+        },
+        "rating": {
+          "count": 0,
+          "score": 0
+        },
+        "third_party_review_scores": [],
+        "review_statistics": {
+          "review_count": 0,
+          "rating": 0,
+          "rating_overall": 0,
+          "rating_equipment": 0,
+          "rating_captain": 0,
+          "stars": {
+            "_1": 0,
+            "_2": 0,
+            "_3": 0,
+            "_4": 0,
+            "_5": 0
+          }
+        },
+        "min_price": {
+          "value": 658,
+          "currency": {
+            "currency": "USD",
+            "title": "US Dollar"
+          },
+          "display_value": "US $658"
+        },
+        "loyalty_price": null,
+        "urls": {
+          "view": "https://boatbooker.com/charters/view/49133",
+          "search_results": null
+        },
+        "verification_badge": null,
+        "has_anglers_choice_award": false,
+        "flag_new_badge": true,
+        "new_badge": "new-captain",
+        "capacity": "18",
+        "length": "95",
+        "shortdesc": "Step aboard Blue Sea Explorer, a beautifully restored 2000 Maldives Safari Cruiser, and experience the magic of the islands in comfort and style. Departing from Hulhumale, this spacious vessel welcomes up to 18 guests and is powered by twin 250 HP Yanmar ",
+        "display_description": "Step aboard Blue Sea Explorer, a beautifully restored 2000 Maldives Safari Cruiser, and experience the magic of the islands in comfort and style. Departing from Hulhumale, this spacious vessel welcomes up to 18 guests and is powered by twin 250 HP Yanmar ",
+        "most_useful_review": null,
+        "free_cancellation_days_in_advance": "7",
+        "page_views": 1,
+        "has_recent_reports": false,
+        "scarcity": null,
+        "driving_distance": null,
+        "listing_type": "boat_tour",
+        "has_boat": true,
+        "location_id": 1065,
+        "tripadvisor_location_id": null,
+        "boat_category": "Yachts",
+        "boat_type": "Cruiser",
+        "cheapest_trip_for_activity": null
+      },
+      {
+        "id": 49821,
+        "license_status": "Pending",
+        "license_tag": null,
+        "lat": 4.1887709463839,
+        "lng": 73.527040319574,
+        "geopoint": {
+          "latitude": 4.1887709463839,
+          "longitude": 73.527040319574
+        },
+        "title": "Bluevilu Maldives (SALVORA)",
+        "activities": [
+          "boat_yacht_tours",
+          "sunset_dinner_cruises",
+          "island_hopping",
+          "booze_cruises",
+          "snorkeling_diving_tours",
+          "shark_diving",
+          "whale_dolphin_watching",
+          "fishing_charter"
+        ],
+        "is_available": false,
+        "is_instant_book_active": true,
+        "is_free_cancellation_active": false,
+        "cover_photo": {
+          "charter_idcharter": "49821",
+          "description": null,
+          "cardinal": "0",
+          "path": "b13e5fdc1eb701e037034b73dcf6d566.jpg",
+          "width": "3264",
+          "height": "1836",
+          "aspect_ratio": "1.778",
+          "status": "optimized",
+          "created_date": "2026-03-25 13:04:41",
+          "id": "1157814",
+          "date_created": "2026-03-25 13:04:41",
+          "date_updated": "2026-03-25 13:04:49",
+          "urls": {
+            "small": "https://static.boatbooker.com/public/images/charters/49821/280x210-blur/b13e5fdc1eb701e037034b73dcf6d566.jpg",
+            "public": "https://static.boatbooker.com/public/images/charters/49821/public/b13e5fdc1eb701e037034b73dcf6d566.jpg",
+            "thumbnail": "https://static.boatbooker.com/public/images/charters/49821/thumbnail-blur/b13e5fdc1eb701e037034b73dcf6d566.jpg"
+          }
+        },
+        "has_video": true,
+        "charter_video": {
+          "charter_id": 49821,
+          "video_id": 60402,
+          "description": "",
+          "cardinal": 0,
+          "id": 32179,
+          "date_created": "2026-03-25 17:47:42",
+          "date_updated": null,
+          "video": {
+            "type": "wistia",
+            "project_id": "ayqh98vv72",
+            "external_id": "76a5pef9hv",
+            "url": "https://fishingbooker.wistia.com/medias/76a5pef9hv",
+            "photo": "https://embed-ssl.wistia.com/deliveries/7bfd30ce9c5fd4a29a63d18fa113667e.webp?video_still_time=10",
+            "thumbnail": "https://embed-ssl.wistia.com/deliveries/7bfd30ce9c5fd4a29a63d18fa113667e.webp?image_crop_resized=400x240&video_still_time=10",
+            "duration": 21.594,
+            "size": 32090866,
+            "width": 1080,
+            "height": 1920,
+            "aspect_ratio": 0.5625,
+            "id": "60402",
+            "date_created": "2026-03-25 17:47:42",
+            "date_updated": "2026-03-25 17:50:04"
+          },
+          "is_custom_produced": false,
+          "custom_produced_tag_type": null
+        },
+        "distance_from_me": null,
+        "distance_from_destination": null,
+        "location": {
+          "title": "Malé"
+        },
+        "charter_destination_details": {
+          "address": "Airport Main Road",
+          "country_title": "Maldives",
+          "country_abbrev": "mv",
+          "location_title": "Malé",
+          "location_id": 61,
+          "destination_id": 34,
+          "postal_code": "22000",
+          "state_abbrev": null,
+          "state_title": null,
+          "display_format": {
+            "exact": "Airport Main Road, Malé, 22000, Maldives",
+            "location_state_country": "Malé, Maldives",
+            "location_state_title_country": "Malé, Maldives"
+          }
+        },
+        "rating": {
+          "count": 0,
+          "score": 0
+        },
+        "third_party_review_scores": [],
+        "review_statistics": {
+          "review_count": 0,
+          "rating": 0,
+          "rating_overall": 0,
+          "rating_equipment": 0,
+          "rating_captain": 0,
+          "stars": {
+            "_1": 0,
+            "_2": 0,
+            "_3": 0,
+            "_4": 0,
+            "_5": 0
+          }
+        },
+        "min_price": {
+          "value": 570,
+          "currency": {
+            "currency": "USD",
+            "title": "US Dollar"
+          },
+          "display_value": "US $570"
+        },
+        "loyalty_price": null,
+        "urls": {
+          "view": "https://boatbooker.com/charters/view/49821",
+          "search_results": null
+        },
+        "verification_badge": null,
+        "has_anglers_choice_award": false,
+        "flag_new_badge": true,
+        "new_badge": "new-captain",
+        "capacity": "16",
+        "length": "89",
+        "shortdesc": "Bluevilu Maldives is a 2000 Maldive Liveaboard Motor yacht based out of Mal&eacute;. It can take up to sixteen guests. The boat is powered by one 230 HP diesel inboard Doosan engine, offering a maximum cruising speed of 8 knots. The vessel comes equipped ",
+        "display_description": "Bluevilu Maldives is a 2000 Maldive Liveaboard Motor yacht based out of Mal&eacute;. It can take up to sixteen guests. The boat is powered by one 230 HP diesel inboard Doosan engine, offering a maximum cruising speed of 8 knots. The vessel comes equipped ",
+        "most_useful_review": null,
+        "free_cancellation_days_in_advance": "0",
+        "page_views": 4,
+        "has_recent_reports": false,
+        "scarcity": null,
+        "driving_distance": null,
+        "listing_type": "boat_tour",
+        "has_boat": true,
+        "location_id": 61,
+        "tripadvisor_location_id": null,
+        "boat_category": "Yachts",
+        "boat_type": "Motor yacht",
+        "cheapest_trip_for_activity": null
+      },
+      {
+        "id": 47708,
+        "license_status": "Pending",
+        "license_tag": null,
+        "lat": 4.2177265967372,
+        "lng": 73.537567266506,
+        "geopoint": {
+          "latitude": 4.2177265967372,
+          "longitude": 73.537567266506
+        },
+        "title": "Maldives Excursions",
+        "activities": [
+          "boat_yacht_tours",
+          "sunset_dinner_cruises",
+          "whale_dolphin_watching"
+        ],
+        "is_available": false,
+        "is_instant_book_active": true,
+        "is_free_cancellation_active": true,
+        "cover_photo": {
+          "charter_idcharter": "47708",
+          "description": null,
+          "cardinal": "0",
+          "path": "044b442b47905c6803f88b688c9c780a.jpg",
+          "width": "1920",
+          "height": "1080",
+          "aspect_ratio": "1.778",
+          "status": "optimized",
+          "created_date": "2026-01-05 17:30:17",
+          "id": "1137034",
+          "date_created": "1970-01-01 00:00:00",
+          "date_updated": null,
+          "urls": {
+            "small": "https://static.boatbooker.com/public/images/charters/47708/280x210-blur/044b442b47905c6803f88b688c9c780a.jpg",
+            "public": "https://static.boatbooker.com/public/images/charters/47708/public/044b442b47905c6803f88b688c9c780a.jpg",
+            "thumbnail": "https://static.boatbooker.com/public/images/charters/47708/thumbnail-blur/044b442b47905c6803f88b688c9c780a.jpg"
+          }
+        },
+        "has_video": false,
+        "charter_video": null,
+        "distance_from_me": null,
+        "distance_from_destination": null,
+        "location": {
+          "title": "Hulhumale"
+        },
+        "charter_destination_details": {
+          "address": "Hulhumale Lakudi Jetty (Hulhumale West Side Jetty)",
+          "country_title": "Maldives",
+          "country_abbrev": "mv",
+          "location_title": "Hulhumale",
+          "location_id": 1065,
+          "destination_id": 1054,
+          "postal_code": "23000",
+          "state_abbrev": null,
+          "state_title": null,
+          "display_format": {
+            "exact": "Hulhumale Lakudi Jetty (Hulhumale West Side Jetty), Hulhumale, 23000, Maldives",
+            "location_state_country": "Hulhumale, Maldives",
+            "location_state_title_country": "Hulhumale, Maldives"
+          }
+        },
+        "rating": {
+          "count": 0,
+          "score": 0
+        },
+        "third_party_review_scores": [],
+        "review_statistics": {
+          "review_count": 0,
+          "rating": 0,
+          "rating_overall": 0,
+          "rating_equipment": 0,
+          "rating_captain": 0,
+          "stars": {
+            "_1": 0,
+            "_2": 0,
+            "_3": 0,
+            "_4": 0,
+            "_5": 0
+          }
+        },
+        "min_price": {
+          "value": 100,
+          "currency": {
+            "currency": "USD",
+            "title": "US Dollar"
+          },
+          "display_value": "US $100"
+        },
+        "loyalty_price": null,
+        "urls": {
+          "view": "https://boatbooker.com/charters/view/47708",
+          "search_results": null
+        },
+        "verification_badge": null,
+        "has_anglers_choice_award": false,
+        "flag_new_badge": false,
+        "new_badge": null,
+        "capacity": "18",
+        "length": "36",
+        "shortdesc": "Set sail in style with Travgo Maldives Pvt Ltd, a sleek 2025 GulfCraft Touring 36 Cruiser based in Hulhumale. Perfect for groups of up to eighteen guests, this powerful vessel is equipped with twin 250 HP Honda outboards, reaching speeds up to 57 knots fo",
+        "display_description": "Set sail in style with Travgo Maldives Pvt Ltd, a sleek 2025 GulfCraft Touring 36 Cruiser based in Hulhumale. Perfect for groups of up to eighteen guests, this powerful vessel is equipped with twin 250 HP Honda outboards, reaching speeds up to 57 knots fo",
+        "most_useful_review": null,
+        "free_cancellation_days_in_advance": "3",
+        "page_views": 1,
+        "has_recent_reports": false,
+        "scarcity": null,
+        "driving_distance": null,
+        "listing_type": "boat_tour",
+        "has_boat": true,
+        "location_id": 1065,
+        "tripadvisor_location_id": null,
+        "boat_category": "Yachts",
+        "boat_type": "Cruiser",
+        "cheapest_trip_for_activity": null
+      },
+      {
+        "id": 49044,
+        "license_status": "Pending",
+        "license_tag": null,
+        "lat": 4.2062147114239,
+        "lng": 73.538351228836,
+        "geopoint": {
+          "latitude": 4.2062147114239,
+          "longitude": 73.538351228836
+        },
+        "title": "Maldive Dreamers",
+        "activities": [
+          "boat_yacht_tours",
+          "sunset_dinner_cruises",
+          "island_hopping",
+          "snorkeling_diving_tours",
+          "whale_dolphin_watching",
+          "fishing_charter",
+          "sandbar_tours",
+          "stingray_tours"
+        ],
+        "is_available": false,
+        "is_instant_book_active": true,
+        "is_free_cancellation_active": true,
+        "cover_photo": {
+          "charter_idcharter": "49044",
+          "description": null,
+          "cardinal": "0",
+          "path": "6050207b3a5cf919abf52eab3443a142.png",
+          "width": "1904",
+          "height": "1220",
+          "aspect_ratio": "1.561",
+          "status": "optimized",
+          "created_date": "2026-03-15 10:08:15",
+          "id": "1153659",
+          "date_created": "2026-03-15 10:08:15",
+          "date_updated": "2026-03-15 10:08:29",
+          "urls": {
+            "small": "https://static.boatbooker.com/public/images/charters/49044/280x210-blur/6050207b3a5cf919abf52eab3443a142.png",
+            "public": "https://static.boatbooker.com/public/images/charters/49044/public/6050207b3a5cf919abf52eab3443a142.png",
+            "thumbnail": "https://static.boatbooker.com/public/images/charters/49044/thumbnail-blur/6050207b3a5cf919abf52eab3443a142.png"
+          }
+        },
+        "has_video": false,
+        "charter_video": null,
+        "distance_from_me": null,
+        "distance_from_destination": null,
+        "location": {
+          "title": "Malé"
+        },
+        "charter_destination_details": {
+          "address": "Haivakaru Magu",
+          "country_title": "Maldives",
+          "country_abbrev": "mv",
+          "location_title": "Malé",
+          "location_id": 61,
+          "destination_id": 34,
+          "postal_code": "23000",
+          "state_abbrev": null,
+          "state_title": null,
+          "display_format": {
+            "exact": "Haivakaru Magu, Malé, 23000, Maldives",
+            "location_state_country": "Malé, Maldives",
+            "location_state_title_country": "Malé, Maldives"
+          }
+        },
+        "rating": {
+          "count": 0,
+          "score": 0
+        },
+        "third_party_review_scores": [],
+        "review_statistics": {
+          "review_count": 0,
+          "rating": 0,
+          "rating_overall": 0,
+          "rating_equipment": 0,
+          "rating_captain": 0,
+          "stars": {
+            "_1": 0,
+            "_2": 0,
+            "_3": 0,
+            "_4": 0,
+            "_5": 0
+          }
+        },
+        "min_price": {
+          "value": 4100,
+          "currency": {
+            "currency": "USD",
+            "title": "US Dollar"
+          },
+          "display_value": "US $4,100"
+        },
+        "loyalty_price": null,
+        "urls": {
+          "view": "https://boatbooker.com/charters/view/49044",
+          "search_results": null
+        },
+        "verification_badge": null,
+        "has_anglers_choice_award": false,
+        "flag_new_badge": true,
+        "new_badge": "new-captain",
+        "capacity": "15",
+        "length": "100",
+        "shortdesc": "Experience the Maldives like never before aboard Soleil, a beautifully restored 2015 wooden motor yacht (refreshed in 2025) based in Mal&eacute;. Accommodating up to 30 guests, Soleil offers a perfect mix of comfort, style, and adventure. Powered by a rel",
+        "display_description": "Experience the Maldives like never before aboard Soleil, a beautifully restored 2015 wooden motor yacht (refreshed in 2025) based in Mal&eacute;. Accommodating up to 30 guests, Soleil offers a perfect mix of comfort, style, and adventure. Powered by a rel",
+        "most_useful_review": null,
+        "free_cancellation_days_in_advance": "14",
+        "page_views": 1,
+        "has_recent_reports": false,
+        "scarcity": null,
+        "driving_distance": null,
+        "listing_type": "boat_tour",
+        "has_boat": true,
+        "location_id": 61,
+        "tripadvisor_location_id": null,
+        "boat_category": "Yachts",
+        "boat_type": "Motor yacht",
+        "cheapest_trip_for_activity": null
+      },
+      {
+        "id": 46010,
+        "license_status": "Pending",
+        "license_tag": null,
+        "lat": 4.1885087955232,
+        "lng": 73.527394371164,
+        "geopoint": {
+          "latitude": 4.1885087955232,
+          "longitude": 73.527394371164
+        },
+        "title": "Misraab by Merenga",
+        "activities": [
+          "boat_yacht_tours",
+          "sunset_dinner_cruises",
+          "island_hopping",
+          "snorkeling_diving_tours",
+          "whale_dolphin_watching",
+          "fishing_charter",
+          "sandbar_tours",
+          "stingray_tours"
+        ],
+        "is_available": false,
+        "is_instant_book_active": true,
+        "is_free_cancellation_active": false,
+        "cover_photo": {
+          "charter_idcharter": "46010",
+          "description": null,
+          "cardinal": "0",
+          "path": "994ce63101a8cd504f8a2d03b489c0fe.jpg",
+          "width": "1920",
+          "height": "1079",
+          "aspect_ratio": "1.779",
+          "status": "optimized",
+          "created_date": "2025-11-26 10:44:41",
+          "id": "1127650",
+          "date_created": "1970-01-01 00:00:00",
+          "date_updated": null,
+          "urls": {
+            "small": "https://static.boatbooker.com/public/images/charters/46010/280x210-blur/994ce63101a8cd504f8a2d03b489c0fe.jpg",
+            "public": "https://static.boatbooker.com/public/images/charters/46010/public/994ce63101a8cd504f8a2d03b489c0fe.jpg",
+            "thumbnail": "https://static.boatbooker.com/public/images/charters/46010/thumbnail-blur/994ce63101a8cd504f8a2d03b489c0fe.jpg"
+          }
+        },
+        "has_video": false,
+        "charter_video": null,
+        "distance_from_me": null,
+        "distance_from_destination": null,
+        "location": {
+          "title": "Malé"
+        },
+        "charter_destination_details": {
+          "address": "Airport Main Road",
+          "country_title": "Maldives",
+          "country_abbrev": "mv",
+          "location_title": "Malé",
+          "location_id": 61,
+          "destination_id": 34,
+          "postal_code": "22000",
+          "state_abbrev": null,
+          "state_title": null,
+          "display_format": {
+            "exact": "Airport Main Road, Malé, 22000, Maldives",
+            "location_state_country": "Malé, Maldives",
+            "location_state_title_country": "Malé, Maldives"
+          }
+        },
+        "rating": {
+          "count": 0,
+          "score": 0
+        },
+        "third_party_review_scores": [],
+        "review_statistics": {
+          "review_count": 0,
+          "rating": 0,
+          "rating_overall": 0,
+          "rating_equipment": 0,
+          "rating_captain": 0,
+          "stars": {
+            "_1": 0,
+            "_2": 0,
+            "_3": 0,
+            "_4": 0,
+            "_5": 0
+          }
+        },
+        "min_price": {
+          "value": 130,
+          "currency": {
+            "currency": "USD",
+            "title": "US Dollar"
+          },
+          "display_value": "US $130"
+        },
+        "loyalty_price": null,
+        "urls": {
+          "view": "https://boatbooker.com/charters/view/46010",
+          "search_results": null
+        },
+        "verification_badge": null,
+        "has_anglers_choice_award": false,
+        "flag_new_badge": false,
+        "new_badge": null,
+        "capacity": "8",
+        "length": "65",
+        "shortdesc": "Misraab by Merenga is a 2019 Merenga Maldives MM 001 Sportfishing, based in Mal&eacute;, accommodating up to eight guests. Powered by a 326 HP diesel inboard Weichai engine, it cruises comfortably at 10 knots, offering a smooth and relaxing ride. Captain ",
+        "display_description": "Misraab by Merenga is a 2019 Merenga Maldives MM 001 Sportfishing, based in Mal&eacute;, accommodating up to eight guests. Powered by a 326 HP diesel inboard Weichai engine, it cruises comfortably at 10 knots, offering a smooth and relaxing ride. Captain ",
+        "most_useful_review": null,
+        "free_cancellation_days_in_advance": "0",
+        "page_views": 1,
+        "has_recent_reports": false,
+        "scarcity": null,
+        "driving_distance": null,
+        "listing_type": "boat_tour",
+        "has_boat": true,
+        "location_id": 61,
+        "tripadvisor_location_id": null,
+        "boat_category": "Sportfishing boats",
+        "boat_type": "Sportfishing",
+        "cheapest_trip_for_activity": null
+      },
+      {
+        "id": 45768,
+        "license_status": "Verified",
+        "license_tag": null,
+        "lat": 4.18836928111,
+        "lng": 73.527003692313,
+        "geopoint": {
+          "latitude": 4.18836928111,
+          "longitude": 73.527003692313
+        },
+        "title": "Yacht Maldives – Stella 1",
+        "activities": [
+          "boat_yacht_tours",
+          "sailing_catamaran_gulet_tours",
+          "sunset_dinner_cruises",
+          "island_hopping",
+          "canoe_kayak_tours",
+          "snorkeling_diving_tours",
+          "shark_diving",
+          "whale_dolphin_watching",
+          "fishing_charter",
+          "sandbar_tours",
+          "stingray_tours"
+        ],
+        "is_available": false,
+        "is_instant_book_active": false,
+        "is_free_cancellation_active": false,
+        "cover_photo": {
+          "charter_idcharter": "45768",
+          "description": null,
+          "cardinal": "0",
+          "path": "f26582f8d5d1662287d2c29e531a2b05.jpg",
+          "width": "2741",
+          "height": "2045",
+          "aspect_ratio": "1.340",
+          "status": "optimized",
+          "created_date": "2025-11-20 09:03:16",
+          "id": "1126279",
+          "date_created": "1970-01-01 00:00:00",
+          "date_updated": null,
+          "urls": {
+            "small": "https://static.boatbooker.com/public/images/charters/45768/280x210-blur/f26582f8d5d1662287d2c29e531a2b05.jpg",
+            "public": "https://static.boatbooker.com/public/images/charters/45768/public/f26582f8d5d1662287d2c29e531a2b05.jpg",
+            "thumbnail": "https://static.boatbooker.com/public/images/charters/45768/thumbnail-blur/f26582f8d5d1662287d2c29e531a2b05.jpg"
+          }
+        },
+        "has_video": false,
+        "charter_video": null,
+        "distance_from_me": null,
+        "distance_from_destination": null,
+        "location": {
+          "title": "Malé"
+        },
+        "charter_destination_details": {
+          "address": "Velana International Airport Arrivals Terminal",
+          "country_title": "Maldives",
+          "country_abbrev": "mv",
+          "location_title": "Malé",
+          "location_id": 61,
+          "destination_id": 34,
+          "postal_code": "",
+          "state_abbrev": null,
+          "state_title": null,
+          "display_format": {
+            "exact": "Velana International Airport Arrivals Terminal, Malé, Maldives",
+            "location_state_country": "Malé, Maldives",
+            "location_state_title_country": "Malé, Maldives"
+          }
+        },
+        "rating": {
+          "count": 0,
+          "score": 0
+        },
+        "third_party_review_scores": [],
+        "review_statistics": {
+          "review_count": 0,
+          "rating": 0,
+          "rating_overall": 0,
+          "rating_equipment": 0,
+          "rating_captain": 0,
+          "stars": {
+            "_1": 0,
+            "_2": 0,
+            "_3": 0,
+            "_4": 0,
+            "_5": 0
+          }
+        },
+        "min_price": {
+          "value": 1247,
+          "currency": {
+            "currency": "USD",
+            "title": "US Dollar"
+          },
+          "display_value": "US $1,247"
+        },
+        "loyalty_price": null,
+        "urls": {
+          "view": "https://boatbooker.com/charters/view/45768",
+          "search_results": null
+        },
+        "verification_badge": "enhanced",
+        "has_anglers_choice_award": false,
+        "flag_new_badge": false,
+        "new_badge": null,
+        "capacity": "4",
+        "length": "71",
+        "shortdesc": "Stella 1 is a beautifully restored 2006 Custom-Made Dhoni yacht (refit in 2020), based in Mal&eacute; and designed for intimate, unforgettable adventures with up to four guests. Powered by a reliable 190 HP Yanmar engine and cruising comfortably at 12 kno",
+        "display_description": "Stella 1 is a beautifully restored 2006 Custom-Made Dhoni yacht (refit in 2020), based in Mal&eacute; and designed for intimate, unforgettable adventures with up to four guests. Powered by a reliable 190 HP Yanmar engine and cruising comfortably at 12 kno",
+        "most_useful_review": null,
+        "free_cancellation_days_in_advance": "0",
+        "page_views": 1,
+        "has_recent_reports": false,
+        "scarcity": null,
+        "driving_distance": null,
+        "listing_type": "boat_rental",
+        "has_boat": true,
+        "location_id": 61,
+        "tripadvisor_location_id": null,
+        "boat_category": "Yachts",
+        "boat_type": "Motor yacht",
+        "cheapest_trip_for_activity": null
+      }
+    ],
+    "filters": [
+      {
+        "groupKey": "activitiesFilter",
+        "isNew": false,
+        "title": "Activities",
+        "isDefaultVisible": true,
+        "filterType": "and",
+        "isSelected": false,
+        "items": [
+          {
+            "title": "Boat & Yacht Tours",
+            "filterKey": "boat_yacht_tours",
+            "isSelected": false,
+            "count": 13
+          },
+          {
+            "title": "Sailing, Catamaran & Gulet Tours",
+            "filterKey": "sailing_catamaran_gulet_tours",
+            "isSelected": false,
+            "count": 3
+          },
+          {
+            "title": "Sunset Dinner Cruises",
+            "filterKey": "sunset_dinner_cruises",
+            "isSelected": false,
+            "count": 5
+          },
+          {
+            "title": "Island Hopping",
+            "filterKey": "island_hopping",
+            "isSelected": false,
+            "count": 10
+          },
+          {
+            "title": "Paddleboarding",
+            "filterKey": "paddleboard_activity",
+            "isSelected": false,
+            "count": 4
+          },
+          {
+            "title": "Canoe & Kayak Tours",
+            "filterKey": "canoe_kayak_tours",
+            "isSelected": false,
+            "count": 1
+          },
+          {
+            "title": "Snorkeling & Diving Tours",
+            "filterKey": "snorkeling_diving_tours",
+            "isSelected": false,
+            "count": 10
+          },
+          {
+            "title": "Shark Diving",
+            "filterKey": "shark_diving",
+            "isSelected": false,
+            "count": 4
+          },
+          {
+            "title": "Whale & Dolphin Watching",
+            "filterKey": "whale_dolphin_watching",
+            "isSelected": false,
+            "count": 8
+          },
+          {
+            "title": "Fishing",
+            "filterKey": "fishing_charter",
+            "isSelected": false,
+            "count": 5
+          },
+          {
+            "title": "Eco-Tours",
+            "filterKey": "eco_tours",
+            "isSelected": false,
+            "count": 1
+          },
+          {
+            "title": "Sandbar Tours",
+            "filterKey": "sandbar_tours",
+            "isSelected": false,
+            "count": 10
+          },
+          {
+            "title": "Stingray Tours",
+            "filterKey": "stingray_tours",
+            "isSelected": false,
+            "count": 4
+          }
+        ],
+        "data": []
+      },
+      {
+        "groupKey": "departureTimeFilter",
+        "isNew": false,
+        "title": "Departure Time",
+        "isDefaultVisible": true,
+        "filterType": "or",
+        "isSelected": false,
+        "items": [
+          {
+            "title": "Morning",
+            "filterKey": "morning",
+            "isSelected": false,
+            "count": 13
+          },
+          {
+            "title": "Evening",
+            "filterKey": "evening",
+            "isSelected": false,
+            "count": 1
+          },
+          {
+            "title": "Night",
+            "filterKey": "night",
+            "isSelected": false,
+            "count": 1
+          }
+        ],
+        "data": []
+      },
+      {
+        "groupKey": "durationFilter",
+        "isNew": false,
+        "title": "Duration",
+        "isDefaultVisible": true,
+        "filterType": "or",
+        "isSelected": false,
+        "items": [
+          {
+            "title": "0 - 5 hours",
+            "filterKey": "0_5",
+            "isSelected": false,
+            "count": 7
+          },
+          {
+            "title": "6 - 9 hours",
+            "filterKey": "6_9",
+            "isSelected": false,
+            "count": 4
+          },
+          {
+            "title": "10+ hours",
+            "filterKey": "10p",
+            "isSelected": false,
+            "count": 1
+          },
+          {
+            "title": "Multi-day",
+            "filterKey": "multi-day",
+            "isSelected": false,
+            "count": 7
+          }
+        ],
+        "data": []
+      },
+      {
+        "groupKey": "packageTypes",
+        "isNew": false,
+        "title": "Package Types",
+        "isDefaultVisible": true,
+        "filterType": "or",
+        "isSelected": false,
+        "items": [
+          {
+            "title": "Private",
+            "filterKey": "private",
+            "isSelected": false,
+            "count": 15
+          }
+        ],
+        "data": []
+      },
+      {
+        "groupKey": "priceFilter",
+        "isNew": false,
+        "title": "Price per Day",
+        "isDefaultVisible": true,
+        "filterType": "or",
+        "isSelected": false,
+        "items": [
+          {
+            "title": "US $0 - US $400",
+            "filterKey": "0_400",
+            "isSelected": false,
+            "count": 4
+          },
+          {
+            "title": "US $400 - US $600",
+            "filterKey": "400_600",
+            "isSelected": false,
+            "count": 2
+          },
+          {
+            "title": "US $600 - US $800",
+            "filterKey": "600_800",
+            "isSelected": false,
+            "count": 2
+          },
+          {
+            "title": "US $800+",
+            "filterKey": "800",
+            "isSelected": false,
+            "count": 10
+          }
+        ],
+        "data": []
+      },
+      {
+        "groupKey": "reviewScoreFilter",
+        "isNew": false,
+        "title": "Review Score",
+        "isDefaultVisible": true,
+        "filterType": "or",
+        "isSelected": false,
+        "items": [
+          {
+            "title": "4.75+",
+            "filterKey": "4_75",
+            "isSelected": false,
+            "count": -1
+          },
+          {
+            "title": "4.50+",
+            "filterKey": "4_50",
+            "isSelected": false,
+            "count": 1
+          },
+          {
+            "title": "4.25+",
+            "filterKey": "4_25",
+            "isSelected": false,
+            "count": 1
+          }
+        ],
+        "data": []
+      },
+      {
+        "groupKey": "boatTypesFilter",
+        "isNew": false,
+        "title": "Boat Types",
+        "isDefaultVisible": true,
+        "filterType": "and",
+        "isSelected": false,
+        "items": [
+          {
+            "title": "Center Console",
+            "filterKey": "center_console",
+            "isSelected": false,
+            "count": 5
+          },
+          {
+            "title": "Sportfishing",
+            "filterKey": "sportfishing",
+            "isSelected": false,
+            "count": 1
+          },
+          {
+            "title": "Motoryacht",
+            "filterKey": "motor_yacht",
+            "isSelected": false,
+            "count": 5
+          },
+          {
+            "title": "Catamaran",
+            "filterKey": "catamaran",
+            "isSelected": false,
+            "count": 2
+          },
+          {
+            "title": "Other",
+            "filterKey": "other",
+            "isSelected": false,
+            "count": 2
+          }
+        ],
+        "data": []
+      },
+      {
+        "groupKey": "boatCategoriesFilter",
+        "isNew": false,
+        "title": "Boat Categories",
+        "isDefaultVisible": true,
+        "filterType": "and",
+        "isSelected": false,
+        "items": [
+          {
+            "title": "Center console boats",
+            "filterKey": "center_console_boats",
+            "isSelected": false,
+            "count": 5
+          },
+          {
+            "title": "Sportfishing boats",
+            "filterKey": "sportfishing_boats",
+            "isSelected": false,
+            "count": 1
+          },
+          {
+            "title": "Yachts",
+            "filterKey": "yachts",
+            "isSelected": false,
+            "count": 5
+          },
+          {
+            "title": "Catamarans",
+            "filterKey": "catamarans",
+            "isSelected": false,
+            "count": 2
+          },
+          {
+            "title": "Other",
+            "filterKey": "other",
+            "isSelected": false,
+            "count": 2
+          }
+        ],
+        "data": []
+      },
+      {
+        "groupKey": "policiesFilter",
+        "isNew": false,
+        "title": "Policies",
+        "isDefaultVisible": true,
+        "filterType": "and",
+        "isSelected": false,
+        "items": [
+          {
+            "title": "Free Cancellation",
+            "filterKey": "free_cancellation",
+            "isSelected": false,
+            "count": 8,
+            "operator": "exclude",
+            "value": "no_cancellations",
+            "dbcolumn": "cancellation"
+          },
+          {
+            "title": "Instant Book",
+            "filterKey": "instant_book_status",
+            "isSelected": false,
+            "count": 7,
+            "operator": "include",
+            "dbcolumn": "instant_book_status",
+            "value": "active"
+          }
+        ],
+        "data": []
+      },
+      {
+        "groupKey": "allowedOnBoardFilter",
+        "isNew": false,
+        "title": "Allowed On Board",
+        "isDefaultVisible": true,
+        "filterType": "and",
+        "isSelected": false,
+        "items": [
+          {
+            "title": "Child Friendly",
+            "filterKey": "children_allowed",
+            "isSelected": false,
+            "count": 14
+          },
+          {
+            "title": "Smoking",
+            "filterKey": "smoking",
+            "isSelected": false,
+            "count": 9
+          },
+          {
+            "title": "Alcohol",
+            "filterKey": "alcohol",
+            "isSelected": false,
+            "count": 10
+          },
+          {
+            "title": "Glass Bottles",
+            "filterKey": "glass_bottles",
+            "isSelected": false,
+            "count": 5
+          },
+          {
+            "title": "Shoes",
+            "filterKey": "shoes",
+            "isSelected": false,
+            "count": 7
+          },
+          {
+            "title": "Pets",
+            "filterKey": "pets",
+            "isSelected": false,
+            "count": 4
+          },
+          {
+            "title": "Liveaboard",
+            "filterKey": "liveaboard",
+            "isSelected": false,
+            "count": 12
+          },
+          {
+            "title": "Swimming",
+            "filterKey": "swimming",
+            "isSelected": false,
+            "count": 10
+          },
+          {
+            "title": "Red Wine",
+            "filterKey": "red_wine",
+            "isSelected": false,
+            "count": 4
+          }
+        ],
+        "data": []
+      },
+      {
+        "groupKey": "discountsFilter",
+        "isNew": false,
+        "title": "Discounts",
+        "isDefaultVisible": true,
+        "filterType": "and",
+        "isSelected": false,
+        "items": [
+          {
+            "title": "Loyalty Program",
+            "filterKey": "loyalty_program",
+            "isSelected": false,
+            "count": 10
+          }
+        ],
+        "data": []
+      }
+    ],
+    "destination": {
+      "geopoint": null,
+      "boundary": null
+    },
+    "empty_search_results": []
+  },
+  "metadata": {
+    "page": 1,
+    "per_page": 50,
+    "page_count": 1,
+    "total_count": 22
+  },
+  "code": 200
+}

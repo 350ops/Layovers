@@ -19,46 +19,41 @@ import AnimatedView from '@/components/AnimatedView';
 // Sample booking request data from host's perspective
 const bookingData = {
     id: '1',
-    propertyName: 'Luxury Beachfront Villa',
-    location: 'Barcelona, Spain',
+    activityName: 'Sunset Cruise & Dolphin Watching',
+    location: 'Male, Maldives',
     guest: {
-        name: 'John Smith',
+        name: 'Sarah Mitchell',
         avatar: require('@/assets/img/user-3.jpg'),
         rating: 4.7,
-        reviewCount: 23,
-        joinedDate: 'Joined in 2022',
-        verifications: ['Email', 'Phone', 'Government ID']
+        reviewCount: 12,
+        joinedDate: 'Joined in 2024',
+        verifications: ['Email', 'Phone']
     },
-    checkIn: 'Dec 20, 2025',
-    checkOut: 'Dec 25, 2025',
-    nights: 5,
+    tripDate: 'Apr 5, 2026',
+    departureTime: '4:00 PM',
+    activity: 'Sunset Cruise',
     guests: 4,
     adults: 3,
     children: 1,
-    infants: 0,
-    pets: 0,
-    requestDate: 'Dec 10, 2024',
-    totalPrice: '$1,750',
+    requestDate: 'Mar 28, 2026',
+    totalPrice: '$550',
     priceBreakdown: {
-        nightlyRate: '$300',
-        nights: 5,
-        subtotal: '$1,500',
-        cleaningFee: '$75',
-        serviceFee: '$125',
-        taxes: '$50',
-        total: '$1,750'
+        tripRate: '$550',
+        serviceFee: '$66',
+        taxes: '$30',
+        operatorEarnings: '$484',
     },
     paymentMethod: {
         type: 'Visa',
         lastFour: '1234'
     },
-    guestMessage: 'Hi! We\'re a family of 4 looking forward to staying at your beautiful villa. We\'re celebrating our anniversary and would love to experience the local culture. We\'re respectful guests and will take great care of your property.',
+    guestMessage: 'Hi! We are a group of 4 airline crew on a layover in Male. We would love to do a sunset cruise and dolphin watching. We are experienced swimmers and very excited about this trip!',
     specialRequests: [
-        'Early check-in if possible (around 1 PM)',
-        'Recommendations for family-friendly restaurants',
-        'Information about nearby beaches'
+        'Can we bring our own snorkeling gear?',
+        'Any recommendations for waterproof phone cases?',
+        'Is there a pickup from the hotel?'
     ],
-    status: 'pending' // pending, approved, rejected
+    status: 'pending'
 };
 
 const BookingDetailScreen = () => {
@@ -95,9 +90,9 @@ const BookingDetailScreen = () => {
                         />
                     </View>
 
-                    {/* Property Name and Location */}
+                    {/* Activity Name and Location */}
                     <View className="px-global pt-6 pb-4">
-                        <ThemedText className="text-2xl font-bold mb-2">{bookingData.propertyName}</ThemedText>
+                        <ThemedText className="text-2xl font-bold mb-2">{bookingData.activityName}</ThemedText>
                         <View className="flex-row items-center">
                             <Icon name="MapPin" size={16} className="mr-2 text-light-subtext dark:text-dark-subtext" />
                             <ThemedText className="text-light-subtext dark:text-dark-subtext">{bookingData.location}</ThemedText>
@@ -143,25 +138,13 @@ const BookingDetailScreen = () => {
                         <View className="mt-4 space-y-4">
                             <View className="flex-row items-center justify-between bg-light-secondary dark:bg-dark-secondary rounded-xl p-4">
                                 <View>
-                                    <ThemedText className="text-sm text-light-subtext dark:text-dark-subtext">Check-in</ThemedText>
-                                    <ThemedText className="text-lg font-semibold">{bookingData.checkIn}</ThemedText>
-                                    <ThemedText className="text-sm text-light-subtext dark:text-dark-subtext">After 3:00 PM</ThemedText>
+                                    <ThemedText className="text-sm text-light-subtext dark:text-dark-subtext">Trip Date</ThemedText>
+                                    <ThemedText className="text-lg font-semibold">{bookingData.tripDate}</ThemedText>
+                                    <ThemedText className="text-sm text-light-subtext dark:text-dark-subtext">Departure: {bookingData.departureTime}</ThemedText>
                                 </View>
                                 <View className="items-end">
-                                    <ThemedText className="text-sm text-light-subtext dark:text-dark-subtext">Check-out</ThemedText>
-                                    <ThemedText className="text-lg font-semibold">{bookingData.checkOut}</ThemedText>
-                                    <ThemedText className="text-sm text-light-subtext dark:text-dark-subtext">Before 11:00 AM</ThemedText>
-                                </View>
-                            </View>
-
-                            <View className="grid grid-cols-2 gap-4">
-                                <View>
-                                    <ThemedText className="text-sm text-light-subtext dark:text-dark-subtext">Duration</ThemedText>
-                                    <ThemedText className="text-lg font-semibold">{bookingData.nights} nights</ThemedText>
-                                </View>
-                                <View>
-                                    <ThemedText className="text-sm text-light-subtext dark:text-dark-subtext">Total guests</ThemedText>
-                                    <ThemedText className="text-lg font-semibold">{bookingData.guests} guests</ThemedText>
+                                    <ThemedText className="text-sm text-light-subtext dark:text-dark-subtext">Activity</ThemedText>
+                                    <ThemedText className="text-lg font-semibold">{bookingData.activity}</ThemedText>
                                 </View>
                             </View>
 
@@ -169,20 +152,16 @@ const BookingDetailScreen = () => {
                                 <ThemedText className="font-medium mb-3">Guest breakdown</ThemedText>
                                 <View className="space-y-2">
                                     <View className="flex-row justify-between">
+                                        <ThemedText className="text-light-subtext dark:text-dark-subtext">Total guests</ThemedText>
+                                        <ThemedText>{bookingData.guests}</ThemedText>
+                                    </View>
+                                    <View className="flex-row justify-between">
                                         <ThemedText className="text-light-subtext dark:text-dark-subtext">Adults</ThemedText>
                                         <ThemedText>{bookingData.adults}</ThemedText>
                                     </View>
                                     <View className="flex-row justify-between">
                                         <ThemedText className="text-light-subtext dark:text-dark-subtext">Children</ThemedText>
                                         <ThemedText>{bookingData.children}</ThemedText>
-                                    </View>
-                                    <View className="flex-row justify-between">
-                                        <ThemedText className="text-light-subtext dark:text-dark-subtext">Infants</ThemedText>
-                                        <ThemedText>{bookingData.infants}</ThemedText>
-                                    </View>
-                                    <View className="flex-row justify-between">
-                                        <ThemedText className="text-light-subtext dark:text-dark-subtext">Pets</ThemedText>
-                                        <ThemedText>{bookingData.pets}</ThemedText>
                                     </View>
                                 </View>
                             </View>
@@ -221,14 +200,9 @@ const BookingDetailScreen = () => {
                         <View className="mt-4 space-y-3">
                             <View className="flex-row justify-between">
                                 <ThemedText className="text-light-subtext dark:text-dark-subtext">
-                                    {bookingData.priceBreakdown.nightlyRate} x {bookingData.priceBreakdown.nights} nights
+                                    Trip rate
                                 </ThemedText>
-                                <ThemedText>{bookingData.priceBreakdown.subtotal}</ThemedText>
-                            </View>
-
-                            <View className="flex-row justify-between">
-                                <ThemedText className="text-light-subtext dark:text-dark-subtext">Cleaning fee</ThemedText>
-                                <ThemedText>{bookingData.priceBreakdown.cleaningFee}</ThemedText>
+                                <ThemedText>{bookingData.priceBreakdown.tripRate}</ThemedText>
                             </View>
 
                             <View className="flex-row justify-between">
@@ -246,8 +220,7 @@ const BookingDetailScreen = () => {
                             <View className="flex-row justify-between">
                                 <ThemedText className="font-bold text-lg">Your earnings</ThemedText>
                                 <ThemedText className="font-bold text-lg text-green-600 dark:text-green-400">
-                                    ${(parseInt(bookingData.priceBreakdown.total.replace('$', '').replace(',', '')) - 
-                                       parseInt(bookingData.priceBreakdown.serviceFee.replace('$', ''))).toLocaleString()}
+                                    {bookingData.priceBreakdown.operatorEarnings}
                                 </ThemedText>
                             </View>
                         </View>

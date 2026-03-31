@@ -1,11 +1,11 @@
 {
   "expo": {
     "newArchEnabled": true,
-    "name": "Propia",
-    "slug": "propia",
+    "name": "Layovers",
+    "slug": "layovers",
     "version": "1.0.0",
     "runtimeVersion": "1.0.0",
-    "scheme": "propia",
+    "scheme": "layovers",
    
     "experiments": {
       "tsconfigPaths": true

@@ -17,83 +17,75 @@ interface Reservation {
     id: number;
     guestName: string;
     guestAvatar: string;
-    checkIn: string;
-    checkOut: string;
+    activity: string;
+    tripDate: string;
     status: 'upcoming' | 'cancelled' | 'past';
     statusText: string;
-    nights: number;
     guests: number;
 }
 
 const ReservationsScreen = () => {
     const colors = useThemeColors();
 
-    // Map of 6 reservations (5 upcoming + 1 cancelled)
     const reservations: Reservation[] = [
         {
             id: 1,
-            guestName: 'Maria Rodriguez',
-            guestAvatar: 'https://randomuser.me/api/portraits/women/32.jpg',
-            checkIn: 'Dec 15',
-            checkOut: 'Dec 18',
+            guestName: 'Captain Alex R.',
+            guestAvatar: 'https://randomuser.me/api/portraits/men/32.jpg',
+            activity: 'Sunset Cruise',
+            tripDate: 'Apr 1',
             status: 'upcoming',
-            statusText: 'Arriving tomorrow',
-            nights: 3,
-            guests: 2
-        },
-        {
-            id: 2,
-            guestName: 'John Smith',
-            guestAvatar: 'https://randomuser.me/api/portraits/men/45.jpg',
-            checkIn: 'Dec 20',
-            checkOut: 'Dec 25',
-            status: 'upcoming',
-            statusText: 'Arriving in 5 days',
-            nights: 5,
+            statusText: 'Tomorrow',
             guests: 4
         },
         {
-            id: 3,
-            guestName: 'Sarah Johnson',
-            guestAvatar: 'https://randomuser.me/api/portraits/women/68.jpg',
-            checkIn: 'Dec 28',
-            checkOut: 'Jan 2',
+            id: 2,
+            guestName: 'Sarah M.',
+            guestAvatar: 'https://randomuser.me/api/portraits/women/45.jpg',
+            activity: 'Snorkeling & Diving',
+            tripDate: 'Apr 3',
             status: 'upcoming',
-            statusText: 'Arriving in 2 weeks',
-            nights: 5,
+            statusText: 'In 3 days',
+            guests: 6
+        },
+        {
+            id: 3,
+            guestName: 'Jennifer K.',
+            guestAvatar: 'https://randomuser.me/api/portraits/women/68.jpg',
+            activity: 'Dolphin Watching',
+            tripDate: 'Apr 5',
+            status: 'upcoming',
+            statusText: 'In 5 days',
             guests: 3
         },
         {
             id: 4,
-            guestName: 'Michael Chen',
+            guestName: 'David L.',
             guestAvatar: 'https://randomuser.me/api/portraits/men/67.jpg',
-            checkIn: 'Jan 5',
-            checkOut: 'Jan 8',
+            activity: 'Fishing Charter',
+            tripDate: 'Apr 8',
             status: 'upcoming',
-            statusText: 'Arriving in 3 weeks',
-            nights: 3,
+            statusText: 'In 1 week',
             guests: 2
         },
         {
             id: 5,
-            guestName: 'Emma Wilson',
+            guestName: 'Emma W.',
             guestAvatar: 'https://randomuser.me/api/portraits/women/89.jpg',
-            checkIn: 'Jan 12',
-            checkOut: 'Jan 19',
+            activity: 'Island Hopping',
+            tripDate: 'Apr 12',
             status: 'upcoming',
-            statusText: 'Arriving in 4 weeks',
-            nights: 7,
-            guests: 6
+            statusText: 'In 2 weeks',
+            guests: 8
         },
         {
             id: 6,
-            guestName: 'David Thompson',
+            guestName: 'Mike T.',
             guestAvatar: 'https://randomuser.me/api/portraits/men/78.jpg',
-            checkIn: 'Dec 10',
-            checkOut: 'Dec 13',
+            activity: 'Boat Tour',
+            tripDate: 'Mar 28',
             status: 'cancelled',
             statusText: 'Cancelled',
-            nights: 3,
             guests: 2
         }
     ];
@@ -161,10 +153,10 @@ const ReservationCard: React.FC<ReservationCardProps> = ({ reservation }) => {
                     <View>
                         <ThemedText className='text-xl font-semibold'>{reservation.guestName}</ThemedText>
                         <ThemedText className='text-base font-regular'>
-                            {reservation.checkIn} - {reservation.checkOut}
+                            {reservation.activity} · {reservation.tripDate}
                         </ThemedText>
                         <ThemedText className='text-sm text-gray-500 mt-1'>
-                            {reservation.nights} nights • {reservation.guests} guests
+                            {reservation.guests} guests
                         </ThemedText>
                     </View>
                     <Image source={{ uri: reservation.guestAvatar }} className="w-12 h-12 rounded-full" />

@@ -10,12 +10,12 @@ export default function LocationPermissionScreen() {
   const handleAllowLocation = async () => {
     const { status } = await Location.requestForegroundPermissionsAsync();
     if (status === 'granted') {
-      router.push('/(drawer)/(tabs)/');
+      router.push('/(tabs)/book');
     }
   };
 
   const handleSkip = () => {
-    router.push('/(drawer)/(tabs)/');
+    router.push('/(tabs)/book');
   };
 
   return (
@@ -26,7 +26,7 @@ export default function LocationPermissionScreen() {
           Enable Location
         </ThemedText>
         <ThemedText className="text-light-subtext dark:text-dark-subtext text-center mb-12">
-          Allow access to your location to find nearby properties and get accurate recommendations
+          Allow access to your location to find boats and activities near you
         </ThemedText>
       </View>
       

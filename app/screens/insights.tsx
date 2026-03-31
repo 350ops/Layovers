@@ -29,7 +29,7 @@ const InsightsScreen = () => {
                     <InsightCard icon="WashingMachine" title="Amenities" percentage={50} amount="2/4" />
                     <InsightCard icon="SlidersHorizontal" title="Flexible Stays" percentage={75} amount="3/4" />
                     <InsightCard icon="Users" title="Family Travel" percentage={50} amount="2/4" />
-                    <InsightCard icon="Waves" title="Beachfront" percentage={25} amount="1/4" />
+                    <InsightCard icon="Waves" title="Boat Tours" percentage={25} amount="1/4" />
                     <InsightCard icon="Dog" title="Pet Friendly" percentage={50} amount="2/4" />
                     <InsightCard icon="Home" title="Star" percentage={75} amount="3/4" />
                 </Grid>

@@ -19,38 +19,34 @@ import AnimatedView from '@/components/AnimatedView';
 // Sample trip data
 const tripData = {
     id: '1',
-    propertyName: 'Luxury Beachfront Villa',
-    location: 'Barcelona, Spain',
-    host: {
-        name: 'Maria Rodriguez',
+    activityName: 'Sunset Cruise & Dolphin Watching',
+    location: 'Male, Maldives',
+    operator: {
+        name: 'Black Pearl 1',
         avatar: require('@/assets/img/user-2.jpg'),
-        rating: 4.9,
-        reviewCount: 127
+        rating: 4.66,
+        reviewCount: 1
     },
-    checkIn: 'Jul 15, 2024',
-    checkOut: 'Jul 22, 2024',
-    nights: 7,
+    tripDate: 'Apr 5, 2026',
+    departureTime: '4:00 PM',
+    activity: 'Sunset Cruise',
     guests: 4,
-    reservationNumber: '#RES-789456',
-    totalPrice: '$2,450',
+    reservationNumber: '#LAY-789456',
+    totalPrice: '$616',
     priceBreakdown: {
-        nightlyRate: '$300',
-        nights: 7,
-        subtotal: '$2,100',
-        cleaningFee: '$75',
-        serviceFee: '$150',
-        taxes: '$125',
-        total: '$2,450'
+        tripRate: '$550',
+        serviceFee: '$66',
+        total: '$616'
     },
     paymentMethod: {
         type: 'Visa',
         lastFour: '1234',
-        amount: '$2,450'
+        amount: '$616'
     },
-    cancellationPolicy: 'Free cancellation until Jul 8. Cancel before check-in on Jul 15 for a partial refund.',
+    cancellationPolicy: 'Free cancellation up to 3 days before the trip. After that, no refund.',
     coordinates: {
-        latitude: 41.3851,
-        longitude: 2.1734
+        latitude: 4.1827,
+        longitude: 73.5181
     }
 };
 
@@ -78,9 +74,9 @@ const TripDetailScreen = () => {
                         />
                     </View>
 
-                    {/* Property Name and Location */}
+                    {/* Activity Name and Location */}
                     <View className="px-global pt-6 pb-4">
-                        <ThemedText className="text-2xl font-bold mb-2">{tripData.propertyName}</ThemedText>
+                        <ThemedText className="text-2xl font-bold mb-2">{tripData.activityName}</ThemedText>
                         <View className="flex-row items-center">
                             <Icon name="MapPin" size={16} className="mr-2 text-light-subtext dark:text-dark-subtext" />
                             <ThemedText className="text-light-subtext dark:text-dark-subtext">{tripData.location}</ThemedText>
@@ -89,17 +85,17 @@ const TripDetailScreen = () => {
 
                     <Divider className="h-2 bg-light-secondary dark:bg-dark-darker" />
 
-                    {/* Host Information */}
-                    <Section title="Hosted by" titleSize="lg" className="px-global pt-4">
+                    {/* Operator Information */}
+                    <Section title="Operated by" titleSize="lg" className="px-global pt-4">
                         <View className="flex-row items-center justify-between mt-4 mb-4">
                             <View className="flex-row items-center flex-1">
-                                <Avatar src={tripData.host.avatar} size="lg" />
+                                <Avatar src={tripData.operator.avatar} size="lg" />
                                 <View className="ml-3 flex-1">
-                                    <ThemedText className="text-lg font-semibold">{tripData.host.name}</ThemedText>
+                                    <ThemedText className="text-lg font-semibold">{tripData.operator.name}</ThemedText>
                                     <View className="flex-row items-center mt-1">
-                                        <ShowRating rating={tripData.host.rating} size="sm" />
+                                        <ShowRating rating={tripData.operator.rating} size="sm" />
                                         <ThemedText className="text-sm text-light-subtext dark:text-dark-subtext ml-2">
-                                            ({tripData.host.reviewCount} reviews)
+                                            ({tripData.operator.reviewCount} reviews)
                                         </ThemedText>
                                     </View>
                                 </View>
@@ -108,8 +104,8 @@ const TripDetailScreen = () => {
 
                         <ListLink
                             icon="MessageCircle"
-                            title="Message host"
-                            description="Get help with your reservation"
+                            title="Message operator"
+                            description="Get help with your booking"
                             href="/screens/chat/user"
                             showChevron
                             className="px-4 py-3 bg-light-secondary dark:bg-dark-secondary rounded-xl"
@@ -118,28 +114,23 @@ const TripDetailScreen = () => {
 
                     <Divider className="mt-6 h-2 bg-light-secondary dark:bg-dark-darker" />
 
-                    {/* Check-in / Check-out */}
-                    <Section title="Your stay" titleSize="lg" className="px-global pt-4">
+                    {/* Trip Details */}
+                    <Section title="Your trip" titleSize="lg" className="px-global pt-4">
                         <View className="mt-4 space-y-4">
                             <View className="flex-row items-center justify-between bg-light-secondary dark:bg-dark-secondary rounded-xl p-4">
                                 <View>
-                                    <ThemedText className="text-sm text-light-subtext dark:text-dark-subtext">Check-in</ThemedText>
-                                    <ThemedText className="text-lg font-semibold">{tripData.checkIn}</ThemedText>
-                                    <ThemedText className="text-sm text-light-subtext dark:text-dark-subtext">After 3:00 PM</ThemedText>
+                                    <ThemedText className="text-sm text-light-subtext dark:text-dark-subtext">Trip Date</ThemedText>
+                                    <ThemedText className="text-lg font-semibold">{tripData.tripDate}</ThemedText>
+                                    <ThemedText className="text-sm text-light-subtext dark:text-dark-subtext">Departure: {tripData.departureTime}</ThemedText>
                                 </View>
                                 <View className="items-end">
-                                    <ThemedText className="text-sm text-light-subtext dark:text-dark-subtext">Check-out</ThemedText>
-                                    <ThemedText className="text-lg font-semibold">{tripData.checkOut}</ThemedText>
-                                    <ThemedText className="text-sm text-light-subtext dark:text-dark-subtext">Before 11:00 AM</ThemedText>
+                                    <ThemedText className="text-sm text-light-subtext dark:text-dark-subtext">Activity</ThemedText>
+                                    <ThemedText className="text-lg font-semibold">{tripData.activity}</ThemedText>
                                 </View>
                             </View>
 
                             <View className="flex-row items-center justify-between pt-2">
                                 <View>
-                                    <ThemedText className="text-sm text-light-subtext dark:text-dark-subtext">Duration</ThemedText>
-                                    <ThemedText className="text-lg font-semibold">{tripData.nights} nights</ThemedText>
-                                </View>
-                                <View className="items-end">
                                     <ThemedText className="text-sm text-light-subtext dark:text-dark-subtext">Guests</ThemedText>
                                     <ThemedText className="text-lg font-semibold">{tripData.guests} guests</ThemedText>
                                 </View>
@@ -178,24 +169,14 @@ const TripDetailScreen = () => {
                         <View className="mt-4 space-y-3">
                             <View className="flex-row justify-between">
                                 <ThemedText className="text-light-subtext dark:text-dark-subtext">
-                                    {tripData.priceBreakdown.nightlyRate} x {tripData.priceBreakdown.nights} nights
+                                    Trip rate
                                 </ThemedText>
-                                <ThemedText>{tripData.priceBreakdown.subtotal}</ThemedText>
-                            </View>
-
-                            <View className="flex-row justify-between">
-                                <ThemedText className="text-light-subtext dark:text-dark-subtext">Cleaning fee</ThemedText>
-                                <ThemedText>{tripData.priceBreakdown.cleaningFee}</ThemedText>
+                                <ThemedText>{tripData.priceBreakdown.tripRate}</ThemedText>
                             </View>
 
                             <View className="flex-row justify-between">
                                 <ThemedText className="text-light-subtext dark:text-dark-subtext">Service fee</ThemedText>
                                 <ThemedText>{tripData.priceBreakdown.serviceFee}</ThemedText>
-                            </View>
-
-                            <View className="flex-row justify-between">
-                                <ThemedText className="text-light-subtext dark:text-dark-subtext">Taxes</ThemedText>
-                                <ThemedText>{tripData.priceBreakdown.taxes}</ThemedText>
                             </View>
 
                             <Divider className="my-3" />
