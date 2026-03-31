@@ -1,59 +1,73 @@
-import { NativeTabs } from 'expo-router/unstable-native-tabs';
+import { Tabs } from 'expo-router';
 import React from 'react';
 import { useBusinessMode } from '@/app/contexts/BusinesModeContext';
+import { useThemeColors } from '@/app/contexts/ThemeColors';
+import * as LucideIcons from 'lucide-react-native';
 
 export default function Layout() {
   const { isBusinessMode } = useBusinessMode();
+  const colors = useThemeColors();
 
   return (
-    <NativeTabs>
-      {!isBusinessMode && (
-        <>
-          <NativeTabs.Trigger name="search">
-            <NativeTabs.Trigger.Icon sf={{ default: 'map', selected: 'map.fill' }} md="map" />
-            <NativeTabs.Trigger.Label>Search</NativeTabs.Trigger.Label>
-          </NativeTabs.Trigger>
-          <NativeTabs.Trigger name="inbox">
-            <NativeTabs.Trigger.Icon
-              sf={{ default: 'bubble.left.and.bubble.right', selected: 'bubble.left.and.bubble.right.fill' }}
-              md="chat"
-            />
-            <NativeTabs.Trigger.Label>Inbox</NativeTabs.Trigger.Label>
-          </NativeTabs.Trigger>
-          <NativeTabs.Trigger name="book">
-            <NativeTabs.Trigger.Icon sf={{ default: 'sailboat', selected: 'sailboat.fill' }} md="sailing" />
-            <NativeTabs.Trigger.Label>Book</NativeTabs.Trigger.Label>
-          </NativeTabs.Trigger>
-          <NativeTabs.Trigger name="profile">
-            <NativeTabs.Trigger.Icon sf={{ default: 'person.circle', selected: 'person.circle.fill' }} md="account_circle" />
-            <NativeTabs.Trigger.Label>Profile</NativeTabs.Trigger.Label>
-          </NativeTabs.Trigger>
-        </>
-      )}
+    <Tabs
+      screenOptions={{
+        headerShown: false,
+        tabBarActiveTintColor: colors.text,
+        tabBarInactiveTintColor: colors.placeholder,
+        tabBarStyle: {
+          backgroundColor: colors.bg,
+          borderTopColor: colors.border,
+        },
+      }}>
+      {/* Consumer tabs */}
+      <Tabs.Screen
+        name="search"
+        options={{
+          title: 'Search',
+          tabBarIcon: ({ color, size }) => <LucideIcons.Map color={color} size={size} />,
+          href: isBusinessMode ? null : '/(tabs)/search',
+        }}
+      />
+      <Tabs.Screen
+        name="inbox"
+        options={{
+          title: 'Inbox',
+          tabBarIcon: ({ color, size }) => <LucideIcons.MessageSquare color={color} size={size} />,
+        }}
+      />
+      <Tabs.Screen
+        name="book"
+        options={{
+          title: 'Book',
+          tabBarIcon: ({ color, size }) => <LucideIcons.Sailboat color={color} size={size} />,
+          href: isBusinessMode ? null : '/(tabs)/book',
+        }}
+      />
+      <Tabs.Screen
+        name="profile"
+        options={{
+          title: 'Profile',
+          tabBarIcon: ({ color, size }) => <LucideIcons.UserCircle color={color} size={size} />,
+        }}
+      />
 
-      {isBusinessMode && (
-        <>
-          <NativeTabs.Trigger name="dashboard">
-            <NativeTabs.Trigger.Icon sf={{ default: 'chart.bar', selected: 'chart.bar.fill' }} md="dashboard" />
-            <NativeTabs.Trigger.Label>Dashboard</NativeTabs.Trigger.Label>
-          </NativeTabs.Trigger>
-          <NativeTabs.Trigger name="inbox">
-            <NativeTabs.Trigger.Icon
-              sf={{ default: 'bubble.left.and.bubble.right', selected: 'bubble.left.and.bubble.right.fill' }}
-              md="chat"
-            />
-            <NativeTabs.Trigger.Label>Inbox</NativeTabs.Trigger.Label>
-          </NativeTabs.Trigger>
-          <NativeTabs.Trigger name="listings">
-            <NativeTabs.Trigger.Icon sf={{ default: 'list.bullet', selected: 'list.bullet' }} md="list" />
-            <NativeTabs.Trigger.Label>Listings</NativeTabs.Trigger.Label>
-          </NativeTabs.Trigger>
-          <NativeTabs.Trigger name="profile">
-            <NativeTabs.Trigger.Icon sf={{ default: 'person.circle', selected: 'person.circle.fill' }} md="account_circle" />
-            <NativeTabs.Trigger.Label>Profile</NativeTabs.Trigger.Label>
-          </NativeTabs.Trigger>
-        </>
-      )}
-    </NativeTabs>
+      {/* Operator tabs */}
+      <Tabs.Screen
+        name="dashboard"
+        options={{
+          title: 'Dashboard',
+          tabBarIcon: ({ color, size }) => <LucideIcons.BarChart3 color={color} size={size} />,
+          href: isBusinessMode ? '/(tabs)/dashboard' : null,
+        }}
+      />
+      <Tabs.Screen
+        name="listings"
+        options={{
+          title: 'Listings',
+          tabBarIcon: ({ color, size }) => <LucideIcons.List color={color} size={size} />,
+          href: isBusinessMode ? '/(tabs)/listings' : null,
+        }}
+      />
+    </Tabs>
   );
 }
